@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Shamsuddeen Muhammad's Blog"
-  site-url: "https://shmuhammadblog.github.io"
+  site-url: https://shmuhammadblog.github.io
   description: "Shamsuddeen Muhammad Blog"
   twitter-card: true
   opengraph: true
@@ -17,7 +17,7 @@ website:
     foreground: "#FFFFFF"
     pinned: true
     left:
-      - text: "Data Scientist and NLP Reseacher"
+      - text: "Data Scientist and NLP Researcher"
     right:
       - text: "Navigation"
         menu:
