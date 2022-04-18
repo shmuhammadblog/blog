@@ -36,9 +36,6 @@ website:
     left: 
       - href: license.qmd
         text: License
-    right:
-      - href: https://www.quarto.org
-        text: Built with Quarto
 format:
   html:
     theme: [litera, styles.scss]
