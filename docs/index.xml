@@ -8,7 +8,7 @@
 <title>Shamsuddeen Muhammad's Blog</title>
 <link>https://shmuhammadblog.github.io/index.html</link>
 <atom:link href="https://shmuhammadblog.github.io/index.xml" rel="self" type="application/rss+xml"/>
-<description>Shamsuddeen Muhammad Personal Website</description>
+<description>Shamsuddeen Muhammad Blog</description>
 <generator>quarto-99.9.9</generator>
 <lastBuildDate>Sun, 17 Apr 2022 23:00:00 GMT</lastBuildDate>
 <item>
@@ -48,6 +48,7 @@
 
  ]]></description>
   <category>tutorial</category>
+  <category>news</category>
   <guid>https://shmuhammadblog.github.io/blog/firstblog/index.html</guid>
   <pubDate>Sun, 17 Apr 2022 23:00:00 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io//blog/firstblog/welcome.jpeg" medium="image" type="image/jpeg"/>

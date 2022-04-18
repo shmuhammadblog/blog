@@ -1,13 +1,14 @@
 project:
   type: website
   output-dir: docs
+  reader-mode: true 
   resources:
     - "_redirects.txt"
 
 website:
   title: "Shamsuddeen Muhammad's Blog"
   site-url: "https://shmuhammadblog.github.io"
-  description: "Shamsuddeen Muhammad Personal Website"
+  description: "Shamsuddeen Muhammad Blog"
   twitter-card: true
   opengraph: true
   navbar:
