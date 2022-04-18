@@ -1,0 +1,18 @@
+---
+title: "Shamsudeeen Muhammad's Blog"
+subtitle: ""
+feed: true
+sidebar: false
+about:
+  template: jolla
+  image-shape: rectangle
+  links:
+    - icon: twitter
+      href: https://twitter.com/Shmuhammadd
+    - icon: linkedin
+      href: https://www.linkedin.com/in/shmuhammad/
+    - icon: github
+      href: https://github.com/shmuhammad2004
+---
+
+I a PhD student at the University of Porto, Portugal.

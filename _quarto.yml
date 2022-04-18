@@ -1,0 +1,45 @@
+project:
+  type: website
+  resources:
+    - "_redirects.txt"
+
+website:
+  title: "Shamsuddeen Muhammad's Blog"
+  site-url: "https://shmuhammadblog.github.io"
+  description: "Shamsuddeen Muhammad Personal Website"
+  twitter-card: true
+  opengraph: true
+  navbar:
+    title: "Shamsuddeen Muhammad"
+    background: "#000000"
+    foreground: "#FFFFFF"
+    pinned: true
+    left:
+      - text: "Data Scientist and NLP Reseacher"
+    right:
+      - text: "Navigation"
+        menu:
+          - text: "About"
+            file: about.qmd
+          - text: "Blog"
+            file: index.qmd
+      - icon: twitter
+        href: https://twitter.com/Shmuhammadd
+      - icon: github
+        href: https://github.com/shmuhammad2004
+      - icon: linkedin
+        href: https://www.linkedin.com/in/shmuhammad/
+      - icon: rss
+        href: index.xmls
+  page-footer:
+    left: 
+      - href: license.qmd
+        text: License
+    right:
+      - href: https://www.quarto.org
+        text: Built with Quarto
+format:
+  html:
+    theme: [litera, styles.scss]
+    include-in-header: plausible.html
+    highlight-style: nord
