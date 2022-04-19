@@ -9,7 +9,9 @@ website:
   title: "Shamsuddeen Muhammad's Blog"
   site-url: https://shmuhammadblog.github.io
   description: "Shamsuddeen Muhammad Blog"
-  twitter-card: true
+  twitter-card:
+     site : "@shmuhammadd"
+     creator : "Shamsuddeen Muhammad"
   opengraph: true
   navbar:
     title: "Shamsuddeen Muhammad"
