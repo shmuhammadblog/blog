@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Pytorch\n\n\nBooks\n\n\n\n\nIt discussed how deep learning changes our approach to machine learning and why PyTorch is a good fit for deep learning\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPaper Review\n\n\n\n\nThis paper discussed\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntutorial\n\n\nnews\n\n\n\n\nWelcome to my Blog\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Pytorch\n\n\nBooks\n\n\n\n\nIt discussed how deep learning changes our approach to machine learning and why PyTorch is a good fit for deep learning\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntutorial\n\n\nnews\n\n\n\n\nWelcome to my Blog\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/dlwp01/chap_01.html#pre-requisites",
@@ -61,20 +61,6 @@
     "title": "Chapter one Summary",
     "section": "Exercises",
     "text": "Exercises\n\nimport torch\nx = torch.rand(5, 3)\nprint(x)\n\ntensor([[0.0515, 0.2562, 0.3839],\n        [0.1516, 0.3848, 0.1570],\n        [0.7761, 0.2426, 0.5270],\n        [0.9191, 0.4228, 0.1838],\n        [0.0467, 0.3779, 0.7167]])"
-  },
-  {
-    "objectID": "blog/0001/paper_01.html#take-always",
-    "href": "blog/0001/paper_01.html#take-always",
-    "title": "My First Quatro Post",
-    "section": "Take always",
-    "text": "Take always"
-  },
-  {
-    "objectID": "blog/0001/paper_01.html#rreferences",
-    "href": "blog/0001/paper_01.html#rreferences",
-    "title": "My First Quatro Post",
-    "section": "Rreferences",
-    "text": "Rreferences"
   },
   {
     "objectID": "blog/firstblog/index.html",
