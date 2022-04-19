@@ -1,0 +1,19 @@
+---
+title: "My First Quatro Post"
+format: 
+  html:
+    code-fold: false
+categories:   
+  - Paper Review
+description: "This paper discussed"
+date: "2022-04-18"
+
+---
+
+
+## What the paper is all About
+
+## Take always
+
+## Rreferences
+

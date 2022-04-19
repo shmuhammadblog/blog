@@ -2,22 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://shmuhammadblog.github.io/til.html</loc>
-    <lastmod>2022-04-18T16:37:11.841Z</lastmod>
+    <lastmod>2022-04-19T08:31:47.864Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/index.html</loc>
-    <lastmod>2022-04-18T16:37:13.063Z</lastmod>
+    <lastmod>2022-04-19T08:31:49.786Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/blog/dlwp01/chap_01.html</loc>
+    <lastmod>2022-04-19T08:31:52.416Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/blog/0001/paper_01.html</loc>
+    <lastmod>2022-04-19T08:31:53.887Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/firstblog/index.html</loc>
-    <lastmod>2022-04-18T16:37:14.461Z</lastmod>
+    <lastmod>2022-04-19T08:31:54.632Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/about.html</loc>
-    <lastmod>2022-04-18T16:37:15.279Z</lastmod>
+    <lastmod>2022-04-19T08:31:55.386Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/license.html</loc>
-    <lastmod>2022-04-18T16:37:16.065Z</lastmod>
+    <lastmod>2022-04-19T08:31:56.326Z</lastmod>
   </url>
 </urlset>
