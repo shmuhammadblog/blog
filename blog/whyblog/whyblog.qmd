@@ -35,7 +35,7 @@ Deliberate practice is a systematic, focused, consistent, goal-oriented trainin
 [^6]: [Geniuses are made, not born.](https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r)
 
 [^7]: [The making of an expert](https://hbr.org/2007/07/the-making-of-an-expert "The making of an expert from Havard Business Review")
-
+       
 Deliberate practice does not make what we learn easier; it changes the brain (Myelination). This concept is notably expressed as "*cells that fire together, wire together*." Sometimes, we reach an "aha!" moment when learning difficult stuff - that is when someone has been struggling to understand a concept, and it suddenly becomes apparent - the clarity does not come out of nowhere.
 
 > Rather, it results from a steady accumulation of information. That's because adding additional information opens up memories associated with the task. Once those memory neurons are active, they can form new connections. They also can form stronger connections within an existing network. Over time, your level of understanding increases until you suddenly "get" it [^8].
