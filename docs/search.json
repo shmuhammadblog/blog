@@ -11,119 +11,63 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Books\n\n\n\n\nBlogging is one of the bset way to learn\n\n\n\n\n\n\nMay 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndailycoding\n\n\npython\n\n\n\n\nDaily coding practice\n\n\n\n\n\n\nMay 17, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nPytorch\n\n\nBooks\n\n\n\n\nIt discussed how deep learning changes our approach to machine learning and why PyTorch is a good fit for deep learning\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntutorial\n\n\nnews\n\n\n\n\nWelcome to my Blog\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "dailycoding\n\n\npython\n\n\n\n\nLeetCoding Challenge problem : Two Sum\n\n\n\n\n\n\nMay 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 17, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/whyblog/whyblog.html",
     "href": "blog/whyblog/whyblog.html",
-    "title": "Why I start Blog",
+    "title": "Why Should You Start a Blog?",
     "section": "",
     "text": "Over a few years, I’ve been holding off writing blog posts consistently. I started in 2018 and stopped after two blog posts. Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, “Why you should write blogpost”1 and watched an RStudio talk by David Robinson, “The unreasonable effectiveness of public work.”2 Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D. student, writing habits will strongly build my writing and creativity muscles to the max.\nThere are many reasons one writes a blog. For me, below are only five reasons I think a blog will help me along the way of building my career."
   },
   {
     "objectID": "blog/whyblog/whyblog.html#deliberate-practice",
     "href": "blog/whyblog/whyblog.html#deliberate-practice",
-    "title": "Why I start Blog",
+    "title": "Why Should You Start a Blog?",
     "section": "Deliberate practice",
     "text": "Deliberate practice\nDeliberate practice is a systematic, focused, consistent, goal-oriented training that builds expertise or improves performance.34 Building expertise in any field is not a marathon; it is a series of Sprints. Evidence has shown that experts or geniuses are always made, not born5 6. For example, bodybuilders, musicians, and footballers consistently practice to achieve mastery. No one becomes an expert from day one. The same is also true for writing and any other skills. Consistent writing, even small content but engaging and informative, will improve your writing skills. As we fondly say, “practice makes perfect.” Consistent practice allows one to do a task while thinking about other things. For example, a professional orator can deliver an excellent speech without reading from any single note. Stopping to think about the task can sometimes result in a flawless performance. People refer to this performance as being “in the zone. Aristotle said:”We are what we repeatedly do. Excellence, then, is not an act, but a habit.” \nDeliberate practice does not make what we learn easier; it changes the brain (Myelination). This concept is notably expressed as “cells that fire together, wire together.” Sometimes, we reach an “aha!” moment when learning difficult stuff - that is when someone has been struggling to understand a concept, and it suddenly becomes apparent - the clarity does not come out of nowhere.\n\nRather, it results from a steady accumulation of information. That’s because adding additional information opens up memories associated with the task. Once those memory neurons are active, they can form new connections. They also can form stronger connections within an existing network. Over time, your level of understanding increases until you suddenly “get” it 7.\n\nTherefore, this blog will serve as a way for me to do deliberate practices of many skills (writing, machine learning, visualization, python, r and, many more)"
   },
   {
     "objectID": "blog/whyblog/whyblog.html#repository-for-my-future-self",
     "href": "blog/whyblog/whyblog.html#repository-for-my-future-self",
-    "title": "Why I start Blog",
+    "title": "Why Should You Start a Blog?",
     "section": "Repository for my future self",
     "text": "Repository for my future self\nI am absent-minded. I write code and forget how I did it or google the same thing many times So, anything that I often google or write a complex program, I will write a blog post on it. That way, I will refer to it. Hadley Wickham inspired me in his book R for Data Science; he said, if you write the same code three times, then, you write a function for that code. Hadley’s idea was adapted from code refactoring rule of thumb (Rule of three), which states that “two instances of similar code don’t require refactoring, but when similar code is used three times, it should be extracted into a new procedure.”8"
   },
   {
     "objectID": "blog/whyblog/whyblog.html#build-public-profile-and-network",
     "href": "blog/whyblog/whyblog.html#build-public-profile-and-network",
-    "title": "Why I start Blog",
+    "title": "Why Should You Start a Blog?",
     "section": "Build public profile and network",
     "text": "Build public profile and network\nPutting your work or your skills to the public is a way to put your best foot forwards. Public work can be anything like Tweets, Blog post, GitHub Repo, or Book. Like-minded people with related interests may find your blog post, network with you, and give you feedback. Many opportunities may come in your future career from the network you build. An example of this was when David Robinson answered a question on Stack Overflow9, Stack Overflow engineer saw the brilliant answer and hired him (his first job at Stack Overflow). So, a blog allows one to showcase his skills, and other people can benefit from it.\n\n\n\n\n\nTweet transformed to a blog and book."
   },
   {
     "objectID": "blog/whyblog/whyblog.html#learning-by-teaching-protégé-effect",
     "href": "blog/whyblog/whyblog.html#learning-by-teaching-protégé-effect",
-    "title": "Why I start Blog",
+    "title": "Why Should You Start a Blog?",
     "section": "Learning by teaching (protégé effect)",
     "text": "Learning by teaching (protégé effect)\nRobert Heinlein said, when one teaches, two learn. It means whenever you teach or explain a concept to someone, you will learn something from it or get a better insight and ultimately reach the “aha” moment. Therefore, writing a good tutorial about a brain-bending concept without dumbing it down is a great way to learn and increase visibility. As Einstein says, “If you can’t explain it simply, you don’t understand it well enough.” A study10 found that when students teach the lesson’s content (active learning), they develop a more in-depth and longer-lasting understanding of the material than students who do not teach it( passive learning). Therefore, this blog will allow me to write my research and summary of papers and man more. The approach of learning by teaching was widely known as Feynman learning technique11"
   },
   {
     "objectID": "blog/whyblog/whyblog.html#share-my-experience-and-opportunites",
     "href": "blog/whyblog/whyblog.html#share-my-experience-and-opportunites",
-    "title": "Why I start Blog",
+    "title": "Why Should You Start a Blog?",
     "section": "Share my experience and opportunites:",
     "text": "Share my experience and opportunites:\nI naturally love to share my experience and other opportunities with people I know. Therefore, a blog post will serve as a way to share important resources that I come across and find useful. This will benefit a wider audience."
   },
   {
     "objectID": "blog/coding_0001/index copy.html",
     "href": "blog/coding_0001/index copy.html",
-    "title": "Daily Coding Problem",
+    "title": "Daily Coding 01",
     "section": "",
     "text": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order."
   },
   {
     "objectID": "blog/coding_0001/index copy.html#solution",
     "href": "blog/coding_0001/index copy.html#solution",
-    "title": "Daily Coding Problem",
+    "title": "Daily Coding 01",
     "section": "Solution",
     "text": "Solution\n\nclass Solution(object):\n    \"\"\"_summary_\n    Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.\n    Example:\n    Given nums = [2, 7, 11, 15], target = 9,\n    Because nums[0] + nums[1] = 2 + 7 = 9,\n    \n    Returns:\n        _type_: return [0, 1]\n    \"\"\"      \n    def twoSum(self, nums, target):\n        mapping = {}\n\n        for index, val in enumerate(nums):\n            diff = target - val\n            if diff in mapping:\n                return [index, mapping[diff]]\n            else:\n                mapping[val] = index\n\nRunning an example\n\nanswer = Solution() # create an instance of the class\n\nnums = [2, 7, 11, 15] # input\ntarget = 9            # input\n\nanswer.twoSum(nums, target) # call the method\n\n[1, 0]"
-  },
-  {
-    "objectID": "blog/dlwp01/chap_01.html#pre-requisites",
-    "href": "blog/dlwp01/chap_01.html#pre-requisites",
-    "title": "Chapter one Summary",
-    "section": "Pre-requisites:",
-    "text": "Pre-requisites:\n\nExperience with some Python programming: datatypes,classes,functions, loops, lists, dictionaries, etc.\nA willingness to learn"
-  },
-  {
-    "objectID": "blog/dlwp01/chap_01.html#deep-learning-and-machine-learning-deep-learning-revolution",
-    "href": "blog/dlwp01/chap_01.html#deep-learning-and-machine-learning-deep-learning-revolution",
-    "title": "Chapter one Summary",
-    "section": "Deep learning and machine learning: deep learning revolution",
-    "text": "Deep learning and machine learning: deep learning revolution\n\nMachine learning relied heavily on feature engineering. Features are transformations on input data that facilitate a downstream algorithm, like a classifier, to produce correct outcomes on new data.\nDeep learning, on the other hand, deals with finding such representations automatically, from raw data, in order to successfully perform a task.\nis is not to say that feature engineering has no place with deep learning; we often need to inject some form of prior knowledge in a learning system.\n\n\nOften, these automatically created features are better than those that are handcrafted! As with many disruptive technologies, this fact has led to a change in perspective.\n\n\n\n\n\nHow feautures are learned?\n\n\n\n\n\nDeep Learning steps\n\nWe need a way to ingest whatever data we have at hand.\nWe somehow need to define the deep learning machine.\nWe must have an automated way, training, to obtain useful representations and make the machine produce desired outputs” (\n\n\n\n\n\nTraining consists of driving the criterion toward lower and lower scores by incrementally modifying our deep learning machine until it achieves low scores, even on data not seen during training"
-  },
-  {
-    "objectID": "blog/dlwp01/chap_01.html#pytorch-for-deep-learning",
-    "href": "blog/dlwp01/chap_01.html#pytorch-for-deep-learning",
-    "title": "Chapter one Summary",
-    "section": "PyTorch for deep learning",
-    "text": "PyTorch for deep learning\n\nPyTorch is a library for Python programs that facilitates building deep learning projects.\nAs Python does for programming, PyTorch provides an excellent introduction to deep learning.\nAt its core, the deep learning machine in figure above is a rather complex mathematical function mapping inputs to an output. To facilitate expressing this function, PyTorch provides a core data structure, the tensor, which is a multidimensional array that shares many similarities with NumPy arrays.\nThen, PyTorch comes with features to perform accelerated mathematical operations on dedicated hardware, which makes it convenient to design neural network architectures and train them on individual machines or parallel computing resources."
-  },
-  {
-    "objectID": "blog/dlwp01/chap_01.html#why-pytorch",
-    "href": "blog/dlwp01/chap_01.html#why-pytorch",
-    "title": "Chapter one Summary",
-    "section": "Why PyTorch?",
-    "text": "Why PyTorch?\n\nIt’s Pythonic and easy to learn, and using the library generally feels familiar to developers who have used Python previously.\nPyTorch gives us a data type, the Tensor, to hold numbers, vectors, matrices, or arrays in general. In addition, it provides functions for operating on them\nBut PyTorch offers two things that make it particularly relevant for deep learning:\n\nit provides accelerated computation using graphical processing units (GPUs), often yielding speedups in the range of 50x over doing the same calculation on a CPU.\nPyTorch provides facilities that support numerical optimization on generic mathematical expressions, which deep learning uses for training (we can safely characterize PyTorch as a high-performance library with optimization (e.g RMSProp and Adam) support for scientific computing in Python.)\n\nWhile it was initially focused on research workflows, PyTorch has been equipped with a high-performance C++ runtime that can be used to deploy models for inference without relying on Python, and can be used for designing and training models in C++.\nIt also has bindings to other languages and an interface for deploying to mobile devices.\n\n\nThe deep learning Learnscapes\n\n\n\n\nTheano and TensorFlow were the premiere low-level libraries, working with a model that had the user define a computational graph and then execute it.\nLasagne and Keras were high-level wrappers around Theano, with Keras wrapping TensorFlow and CNTK as well.\nCaffe, Chainer, DyNet, Torch (the Lua-based precursor to PyTorch), MXNet, CNTK, DL4J, and others filled various niches in the ecosystem.\n\n\nThe community largely consolidated behind either PyTorch or TensorFlow, with the adoption of other libraries dwindling, except for those filling specific niches.\n\n\nTheano, one of the first deep learning frameworks, has ceased active development.\nTensorFlow:\n\nConsumed Keras entirely, promoting it to a first-class API (means you can operate on them in the usual manner)\nReleased TF 2.0 with eager mode by default (even though slower than graph mode/execution)\n\nJAX,\n\na library by Google that was developed independently from TensorFlow, has started gaining traction as a NumPy equivalent with GPU, autograd and JIT capabilities.\n\nPyTorch:\n\nConsumed Caffe2 for its backend\nReplaced most of the low-level code reused from the Lua-based Torch project\nAdded support for ONNX, a vendor-neutral model description and exchange format\nAdded a delayed-execution “graph mode” runtime called TorchScript\nReleased version 1.0\nReplaced CNTK and Chainer as the framework of choice by their respective corporate sponsors\n\n\n\nTensorFlow has a robust pipeline to production, an extensive industry-wide community, and massive mindshare. PyTorch has made huge inroads with the research and teaching communities, thanks to its ease of use, and has picked up momentum since, as researchers and graduates train students and move to industry. It has also built up steam in terms of production solutions.\n\n\nInterestingly, with the advent of TorchScript and eager mode, both PyTorch and TensorFlow have seen their feature sets start to converge with the other’s, though the presentation of these features and the overall experience is still quite different between the two\n\n\n)"
-  },
-  {
-    "objectID": "blog/dlwp01/chap_01.html#an-overview-of-how-pytorch-supports-deep-learning",
-    "href": "blog/dlwp01/chap_01.html#an-overview-of-how-pytorch-supports-deep-learning",
-    "title": "Chapter one Summary",
-    "section": "1.4 An overview of how PyTorch supports deep learning",
-    "text": "1.4 An overview of how PyTorch supports deep learning\n\nPytorch is written in Python, but there’s a lot of non-Python code in it.\nFor performance reasons, most of PyTorch is written in C++ and CUDA, a C++-like language from NVIDIA that can be compiled to run with massive parallelism on GPUs.\nHowever, the Python API is where PyTorch shines in term of usability and integration with the wider Python ecosystem\n\n\nPyTorch’s support for deep learning : Tensors, autograd, and distributed computing\n\nPyTorch is a library that provides multidimensional arrays, or tensors and an extensive library of operations on them, provided by the torch module.\n\n\nTensors is just an n-dimensional array in PyTorch. Tensors support some additional enhancements which make them unique: Apart from CPU, they can be loaded on the GPU for faster computations\n\n\n\nA tensor is a generalization of vectors and matrices and is easily understood as a multidimensional array. Tensors are the building blocks of deep learning, and they are the most fundamental data structures in PyTorch (Tensorflow named after Tensor).\n\n\n\n\n\n\nPyTorch’s support for deep learning : Autograd, and distributed computing\n\nThe second core thing that PyTorch provides is the ability of tensors to keep track of the operations performed on them and to analytically compute derivatives of an output of a computation with respect to any of its inputs.\nThis is used for numerical optimization, and it is provided natively by tensors by virtue of dispatching through PyTorch’s autograd engine under the hood.\n\n\nPyTorch’s autograd abstracts the complicated mathematics and helps us “magically” calculate gradients of high dimensional curves with only a few lines of code.\n\n\n\n\nOn setting .requires_grad = True they start forming a backward graph that tracks every operation applied on them to calculate the gradients using something called a dynamic computation graph (DCG).\n\n1 Torch.nn\n\nThe core PyTorch modules for building neural networks are located in torch.nn, which provides common neural network layers and other architectural components. Fully connected layers, convolutional layers, activation functions, and loss functions can all be found here\n\n\n\n\n\n\n2. Fetching data\n\nWe need to convert each sample from our data into a something PyTorch can actually handle: tensors.\n\n\nThis bridge between our custom data (in whatever format it might be) and a** standardized PyTorch tensor** is the Dataset class PyTorch provides in torch.utils.data. (Discuss in chapter 4). For example, text data can (), image data (), vedio data ()\n\nAs this process is wildly different from one problem to the next, we will have to implement this data sourcing ourselves\nFor exaple, Vector data—Rank-2 tensors of shape (samples, features), where each sample is a vector of numerical attributes (“features”)\nTimeseries data or sequence data—Rank-3 tensors of shape (samples, timesteps, features), where each sample is a sequence (of length timesteps) of feature vectors\nImages—Rank-4 tensors of shape (samples, height, width, channels), where each sample is a 2D grid of pixels, and each pixel is represented by a vector of values (“channels”)\nVideo—Rank-5 tensors of shape (samples, frames, height, width, channels), where each sample is a sequence (of length frames) of images\n\n\n2. Data Batches\n\nAs data storage is often slow, we want to parallelize data loading. However, Python does not provide easy, efficient, parallel processing, we will need multiple processes to load our data. In order to assemble them into batches (tensors that encompass several samples). PyTorch provides all that magic in the DataLoader class (Chapt 7).\n\n\n\n\n\n\nTraining (several steps)\n\nAt each step in the training loop, we evaluate our model on the samples we got from the data loader. We then compare the outputs of our model to the desired output (the targets) using some criterion or loss function. PyTorch also has a variety of loss functions at our disposal (Torch.nn).\n\n\n\n\n\nAfter we have compared our actual outputs to the ideal with the loss functions, we need to push the model a little to move its outputs to better resemble the target. This is where the PyTorch autograd engine comes in; but we also need an optimizer doing the updates, and that is what PyTorch offers us in torch.optim. (Chapt 5,6,8)\n\nHow you should change your weights or learning rates of your neural network to reduce the losses is defined by the optimizers you use !!! The right optimization algorithm can reduce training time exponentially. Optimization algorithms or strategies are responsible for reducing the losses and to provide the most accurate results possible.\n\n\nStochastic Gradient Descent, Mini-Batch Gradient Descent, Momentum, Adagrad , AdaDelta , Adam\n\n\n\nGradient Descent is the most basic but most used optimization algorithm. It’s used heavily in linear regression and classification algorithms. Backpropagation in neural networks also uses a gradient descent algorithm\n\n\n\n\n\nParallel training\n\nSometimes, we need to train on multiple GPU : torch.nn.parallel.DistributedDataParallel and the torch.distributed submodule can be employed to use the additional hardware.\n\n\n\n\n4. Trained Model\n\nThe training loop is the most time-consuming part of a deep learning project. At the end of it, we are rewarded with a model whose parameters have been optimized on our task. This is the Trained Model.\n\n\n\n5. Deploying the model\n\nThi may involve putting the model on a server or exporting it to load it to a cloud engine, Or we might integrate it with a larger application, or run it on a phone.\n\nPyTorch defaults to an immediate execution model (eager mode). Whenever an instruction involving PyTorch is executed by the Python interpreter, the corresponding operation is immediately carried out by the underlying C++ or CUDA implementation. As more instructions operate on tensors, more operations are executed by the backend implementation."
-  },
-  {
-    "objectID": "blog/dlwp01/chap_01.html#hardware-and-software-requirements",
-    "href": "blog/dlwp01/chap_01.html#hardware-and-software-requirements",
-    "title": "Chapter one Summary",
-    "section": "1.5 Hardware and software requirements",
-    "text": "1.5 Hardware and software requirements\n\nFirst part can be use on CPU\nSecond part you may need CUDA-enabled GPU with atleast 8GB of memory or better\nTo be clear: GPU is not mandatory if you’re willing to wait, but running on a GPU cuts training time by at least an order of magnitude (and usually it’s 40–50x faster).\nColab is a Google-owned cloud environment that runs on Google Cloud Platform. It is a free and open-source platform for creating and sharing interactive and reproducible workflows.\nAgain, training reduced by using multiple GPUs on the same machine, and even further on clusters of machines equipped with multiple GPUs.\nPart 2 has some nontrivial download bandwidth and disk space requirements as well. The raw data needed for the cancer-detection project in part 2 is about 60 GB to download, and when uncompressed it requires about 120 GB of space.\nWhile it is possible to use network storage for this, there might be training speed penalties if the network access is slower than local disk. Preferably you will have space on a local SSD to store the data for fast retrieval"
-  },
-  {
-    "objectID": "blog/dlwp01/chap_01.html#exercises",
-    "href": "blog/dlwp01/chap_01.html#exercises",
-    "title": "Chapter one Summary",
-    "section": "Exercises",
-    "text": "Exercises\n\nimport torch\nx = torch.rand(5, 3)\nprint(x)\n\ntensor([[0.0515, 0.2562, 0.3839],\n        [0.1516, 0.3848, 0.1570],\n        [0.7761, 0.2426, 0.5270],\n        [0.9191, 0.4228, 0.1838],\n        [0.0467, 0.3779, 0.7167]])"
-  },
-  {
-    "objectID": "blog/firstblog/index.html",
-    "href": "blog/firstblog/index.html",
-    "title": "My First Quatro Post",
-    "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
     "objectID": "about.html",

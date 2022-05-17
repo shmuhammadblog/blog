@@ -5,84 +5,14 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Shamsuddeen Muhammad's Blog</title>
+<title>Shamsuddeen Hassan Muhammad's Blog</title>
 <link>https://shmuhammadblog.github.io/index.html</link>
 <atom:link href="https://shmuhammadblog.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shamsuddeen Muhammad Blog</description>
 <generator>quarto-0.9.410</generator>
 <lastBuildDate>Tue, 17 May 2022 23:00:00 GMT</lastBuildDate>
 <item>
-  <title>Why I start Blog</title>
-  <link>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Over a few years, I’ve been holding off writing blog posts consistently. I started in 2018 and stopped after two blog posts.&nbsp;Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, “Why you should write blogpost”<sup>1</sup> and watched an RStudio talk by David Robinson, “The unreasonable effectiveness of public work.”<sup>2</sup> Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D.&nbsp;student, writing habits will strongly build my writing and creativity muscles to the max.</p>
-<p><img src="https://shmuhammadblog.github.io/blog/whyblog/lets-try.jpg" title="Lets try" class="img-fluid"></p>
-<p>There are many reasons one writes a blog. For me, below are only five reasons I think a blog will help me along the way of building my career.</p>
-<section id="deliberate-practice" class="level2">
-<h2 class="anchored" data-anchor-id="deliberate-practice">Deliberate practice</h2>
-<p>Deliberate practice&nbsp;is a systematic, focused, consistent, goal-oriented training that builds expertise or improves performance.<sup>3</sup><sup>4</sup> Building expertise in any field is not a marathon; it is a series of Sprints. Evidence has shown that experts or geniuses are always made, not born<sup>5</sup> <sup>6</sup>. For example, bodybuilders, musicians, and footballers consistently practice to achieve mastery. No one becomes an expert from day one. The same is also true for writing and any other skills. Consistent writing, even small content but engaging and informative, will improve your writing skills. As we fondly say, “practice makes perfect.” Consistent practice allows one to do a task while thinking about other things. For example, a professional orator can deliver an excellent speech without reading from any single note. Stopping to think about the task can sometimes result in a flawless performance. People refer to this performance as being “in the zone. Aristotle said:”We are what we repeatedly do. Excellence, then, is not an act, but a habit.”&nbsp;</p>
-<p>Deliberate practice does not make what we learn easier; it changes the brain (Myelination). This concept is notably expressed as “<em>cells that fire together, wire together</em>.” Sometimes, we reach an “aha!” moment when learning difficult stuff - that is when someone has been struggling to understand a concept, and it suddenly becomes apparent - the clarity does not come out of nowhere.</p>
-<blockquote class="blockquote">
-<p>Rather, it results from a steady accumulation of information. That’s because adding additional information opens up memories associated with the task. Once those memory neurons are active, they can form new connections. They also can form stronger connections within an existing network. Over time, your level of understanding increases until you suddenly “get” it <sup>7</sup>.</p>
-</blockquote>
-<p>Therefore, this blog will serve as a way for me to do deliberate practices of many skills (writing, machine learning, visualization, python, r and, many more)</p>
-</section>
-<section id="repository-for-my-future-self" class="level2">
-<h2 class="anchored" data-anchor-id="repository-for-my-future-self">Repository for my future self</h2>
-<p>I am absent-minded. I write code and forget how I did it or google the same thing many times So, anything that I often google or write a complex program, I will write a blog post on it. That way, I will refer to it. Hadley Wickham inspired me in his book R for Data Science; he said, if you write the same code three times, then, you write a function for that code. Hadley’s idea was adapted from code refactoring rule of thumb (Rule of three), which states that “two instances of similar code don’t require refactoring, but when similar code is used three times, it should be extracted into a new procedure.”<sup>8</sup></p>
-<p><img src="https://shmuhammadblog.github.io/blog/whyblog/write-blog.png" class="img-fluid"></p>
-</section>
-<section id="build-public-profile-and-network" class="level2">
-<h2 class="anchored" data-anchor-id="build-public-profile-and-network">Build public profile and network</h2>
-<p>Putting your work or your skills to the public is a way to put your best foot forwards. Public work can be anything like Tweets, Blog post, GitHub Repo, or Book. Like-minded people with related interests may find your blog post, network with you, and give you feedback. Many opportunities may come in your future career from the network you build. An example of this was when David Robinson answered a question on Stack Overflow<sup>9</sup>, Stack Overflow engineer saw the brilliant answer and hired him (his first job at Stack Overflow). So, a blog allows one to showcase his skills, and other people can benefit from it.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<figure class="figure">
-<img src="https://shmuhammadblog.github.io/blog/whyblog/book-davide.jpg" title="Tweet-Blog-Book" class="img-fluid figure-img">
-</figure>
-<p></p><p></p>
-</figure>
-</div>
-</section>
-<section id="learning-by-teaching-protégé-effect" class="level2">
-<h2 class="anchored" data-anchor-id="learning-by-teaching-protégé-effect">Learning by teaching (protégé effect)</h2>
-<p>Robert Heinlein said, when one teaches, two learn. It means whenever you teach or explain a concept to someone, you will learn something from it or get a better insight and ultimately reach the “aha” moment. Therefore, writing a good tutorial about a brain-bending concept without dumbing it down is a great way to learn and increase visibility. As Einstein says, “If you can’t explain it simply, you don’t understand it well enough.” A study<sup>10</sup> found that when students teach the lesson’s content (active learning), they develop a more in-depth and longer-lasting understanding of the material than students who do not teach it( passive learning). Therefore, this blog will allow me to write my research and summary of papers and man more. The approach of learning by teaching was widely known as Feynman learning technique<sup>11</sup></p>
-<p><img src="https://shmuhammadblog.github.io/blog/whyblog/feyman.jpg" title="Feyman Learning techniques" class="img-fluid"></p>
-</section>
-<section id="share-my-experience-and-opportunites" class="level2">
-<h2 class="anchored" data-anchor-id="share-my-experience-and-opportunites">Share&nbsp;my experience and opportunites:</h2>
-<p>I naturally love to share my experience and other opportunities with people I know. Therefore, a blog post will serve as a way to share important resources that I come across and find useful. This will benefit a wider audience.</p>
-
-
-</section>
-
-
-<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p><a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045">Why you (yes, you) should blog</a>↩︎</p></li>
-<li id="fn2"><p><a href="https://www.youtube.com/watch?v=th79W4rv67g&amp;ab_channel=RStudio">“The unreasonable effectiveness of public work</a>↩︎</p></li>
-<li id="fn3"><p><a href="https://jamesclear.com/deliberate-practice-myth"><strong>T</strong>he Myth and Magic of Deliberate Practice</a>↩︎</p></li>
-<li id="fn4"><p><a href="https://jamesclear.com/atomic-habits">Atomic Habits: Tiny Changes, Remarkable Results.</a>↩︎</p></li>
-<li id="fn5"><p><a href="https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r">Geniuses are made, not born.</a>↩︎</p></li>
-<li id="fn6"><p><a href="https://hbr.org/2007/07/the-making-of-an-expert" title="The making of an expert from Havard Business Review">The making of an expert</a>↩︎</p></li>
-<li id="fn7"><p><a href="https://www.sciencenewsforstudents.org/article/learning-rewires-brain">Learning rewires the brain</a>↩︎</p></li>
-<li id="fn8"><p><a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)#">Rule of three</a>↩︎</p></li>
-<li id="fn9"><p><a href="https://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution">David Robinson’s Stackoverflow Answer that landed him job</a>↩︎</p></li>
-<li id="fn10"><p><a href="https://www.edsurge.com/news/2019-01-24-want-students-to-remember-what-they-learn-have-them-teach-it">Want Students to Remember What They Learn? Have Them Teach It</a>↩︎</p></li>
-<li id="fn11"><p><a href="https://fs.blog/2012/04/feynman-technique/">The Feynman Technique: The Best Way to Learn Anything</a>↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <category>Books</category>
-  <guid>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</guid>
-  <pubDate>Tue, 17 May 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://shmuhammadblog.github.io//blog/whyblog/featured.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Daily Coding Problem</title>
+  <title>Daily Coding 01</title>
   <link>https://shmuhammadblog.github.io/blog/coding_0001/index copy.html</link>
   <description><![CDATA[ 
 
@@ -160,354 +90,78 @@
   <category>dailycoding</category>
   <category>python</category>
   <guid>https://shmuhammadblog.github.io/blog/coding_0001/index copy.html</guid>
-  <pubDate>Mon, 16 May 2022 23:00:00 GMT</pubDate>
+  <pubDate>Tue, 17 May 2022 23:00:00 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io//blog/coding_0001/dailycode.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Chapter one Summary</title>
-  <link>https://shmuhammadblog.github.io/blog/dlwp01/chap_01.html</link>
+  <title>Why Should You Start a Blog?</title>
+  <link>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</link>
   <description><![CDATA[ 
 
 
 
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/book_pic.png" class="img-fluid"></p>
-</center>
-<section id="book-organization" class="level1">
-<h1>Book Organization</h1>
-<p>PART 1CORE PYTORCH 1. Intro to deep learning and PYTORCH</p>
-<ol start="2" type="1">
-<li><p>Pretrained models</p></li>
-<li><p>Tensors</p></li>
-<li><p>Real word data representation using Tensors</p></li>
-<li><p>The mechanics of learning</p></li>
-<li><p>Using neural networks to fit data</p></li>
-<li><p>Learning from Images</p></li>
-<li><p>Using convolutional to generalize</p></li>
-</ol>
-<p>Part 2 Learning from images in the real world: Early detection of lung 1. Using Pytorch to fight Cancer 2.</p>
-<p>Part 3 DEPLOYMENT</p>
+<p>Over a few years, I’ve been holding off writing blog posts consistently. I started in 2018 and stopped after two blog posts.&nbsp;Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, “Why you should write blogpost”<sup>1</sup> and watched an RStudio talk by David Robinson, “The unreasonable effectiveness of public work.”<sup>2</sup> Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D.&nbsp;student, writing habits will strongly build my writing and creativity muscles to the max.</p>
+<p><img src="https://shmuhammadblog.github.io/blog/whyblog/lets-try.jpg" title="Lets try" class="img-fluid"></p>
+<p>There are many reasons one writes a blog. For me, below are only five reasons I think a blog will help me along the way of building my career.</p>
+<section id="deliberate-practice" class="level2">
+<h2 class="anchored" data-anchor-id="deliberate-practice">Deliberate practice</h2>
+<p>Deliberate practice&nbsp;is a systematic, focused, consistent, goal-oriented training that builds expertise or improves performance.<sup>3</sup><sup>4</sup> Building expertise in any field is not a marathon; it is a series of Sprints. Evidence has shown that experts or geniuses are always made, not born<sup>5</sup> <sup>6</sup>. For example, bodybuilders, musicians, and footballers consistently practice to achieve mastery. No one becomes an expert from day one. The same is also true for writing and any other skills. Consistent writing, even small content but engaging and informative, will improve your writing skills. As we fondly say, “practice makes perfect.” Consistent practice allows one to do a task while thinking about other things. For example, a professional orator can deliver an excellent speech without reading from any single note. Stopping to think about the task can sometimes result in a flawless performance. People refer to this performance as being “in the zone. Aristotle said:”We are what we repeatedly do. Excellence, then, is not an act, but a habit.”&nbsp;</p>
+<p>Deliberate practice does not make what we learn easier; it changes the brain (Myelination). This concept is notably expressed as “<em>cells that fire together, wire together</em>.” Sometimes, we reach an “aha!” moment when learning difficult stuff - that is when someone has been struggling to understand a concept, and it suddenly becomes apparent - the clarity does not come out of nowhere.</p>
+<blockquote class="blockquote">
+<p>Rather, it results from a steady accumulation of information. That’s because adding additional information opens up memories associated with the task. Once those memory neurons are active, they can form new connections. They also can form stronger connections within an existing network. Over time, your level of understanding increases until you suddenly “get” it <sup>7</sup>.</p>
+</blockquote>
+<p>Therefore, this blog will serve as a way for me to do deliberate practices of many skills (writing, machine learning, visualization, python, r and, many more)</p>
 </section>
-<section id="chapter-01-introduction-to-deep-learning-and-pytorch" class="level1">
-<h1>Chapter 01 : Introduction to deep learning and PYTORCH</h1>
-<p>This chapter objectives</p>
-<blockquote class="blockquote">
-<p>How deep learning changes our approach to machine learning</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Understanding why PyTorch is a good fit for deep learning</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Examining a typical deep learning project</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>The hardware you’ll need to follow along with the examples</p>
-</blockquote>
-<blockquote class="blockquote">
-<blockquote class="blockquote">
-<p>This book focuses on practical PyTorch, with the aim of covering enough ground to allow you to solve real-world machine learning problems, such as in vision, with deep learning or explore new models as they pop up in research literature</p>
-</blockquote>
-</blockquote>
-<section id="pre-requisites" class="level2">
-<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites:</h2>
-<ul>
-<li><p>Experience with some Python programming: datatypes,classes,functions, loops, lists, dictionaries, etc.</p></li>
-<li><p>A willingness to learn</p></li>
-</ul>
+<section id="repository-for-my-future-self" class="level2">
+<h2 class="anchored" data-anchor-id="repository-for-my-future-self">Repository for my future self</h2>
+<p>I am absent-minded. I write code and forget how I did it or google the same thing many times So, anything that I often google or write a complex program, I will write a blog post on it. That way, I will refer to it. Hadley Wickham inspired me in his book R for Data Science; he said, if you write the same code three times, then, you write a function for that code. Hadley’s idea was adapted from code refactoring rule of thumb (Rule of three), which states that “two instances of similar code don’t require refactoring, but when similar code is used three times, it should be extracted into a new procedure.”<sup>8</sup></p>
+<p><img src="https://shmuhammadblog.github.io/blog/whyblog/write-blog.png" class="img-fluid"></p>
 </section>
-<section id="deep-learning-and-machine-learning-deep-learning-revolution" class="level2">
-<h2 class="anchored" data-anchor-id="deep-learning-and-machine-learning-deep-learning-revolution">Deep learning and machine learning: deep learning revolution</h2>
-<ul>
-<li><p>Machine learning relied heavily on feature engineering. Features are transformations on input data that facilitate a downstream algorithm, like a classifier, to produce correct outcomes on new data.</p></li>
-<li><p>Deep learning, on the other hand, deals with finding such representations automatically, from raw data, in order to successfully perform a task.</p></li>
-<li><p>is is not to say that feature engineering has no place with deep learning; we often need to inject some form of prior knowledge in a learning system.</p></li>
-</ul>
-<blockquote class="blockquote">
-<p>Often, these automatically created features are better than those that are handcrafted! As with many disruptive technologies, this fact has led to a change in perspective.</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/mlvsdp.png" class="img-fluid"></p>
-</center>
-<section id="how-feautures-are-learned" class="level3">
-<h3 class="anchored" data-anchor-id="how-feautures-are-learned">How feautures are learned?</h3>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/layeredlearning.png" class="img-fluid"></p>
-</center>
-</section>
-<section id="deep-learning-steps" class="level3">
-<h3 class="anchored" data-anchor-id="deep-learning-steps">Deep Learning steps</h3>
-<ul>
-<li><p>We need a way to ingest whatever data we have at hand.</p></li>
-<li><p>We somehow need to define the deep learning machine.</p></li>
-<li><p>We must have an automated way, training, to obtain useful representations and make the machine produce desired outputs” (</p></li>
-</ul>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/deep_learning_training.png" class="img-fluid"></p>
-</center>
-<blockquote class="blockquote">
-<p>Training consists of driving the criterion toward lower and lower scores by incrementally modifying our deep learning machine until it achieves low scores, even on data not seen during training</p>
-</blockquote>
-</section>
-</section>
-<section id="pytorch-for-deep-learning" class="level2">
-<h2 class="anchored" data-anchor-id="pytorch-for-deep-learning">PyTorch for deep learning</h2>
-<ul>
-<li><p>PyTorch is a library for Python programs that facilitates building deep learning projects.</p></li>
-<li><p>As Python does for programming, PyTorch provides an excellent introduction to deep learning.</p></li>
-<li><p>At its core, the deep learning machine in figure above is a rather complex mathematical function mapping inputs to an output. To facilitate expressing this function, PyTorch provides a core data structure, the tensor, which is a multidimensional array that shares many similarities with NumPy arrays.</p></li>
-<li><p>Then, PyTorch comes with features to perform accelerated mathematical operations on dedicated hardware, which makes it convenient to design neural network architectures and train them on individual machines or parallel computing resources.</p></li>
-</ul>
-</section>
-<section id="why-pytorch" class="level2">
-<h2 class="anchored" data-anchor-id="why-pytorch">Why PyTorch?</h2>
-<ul>
-<li><p>It’s Pythonic and easy to learn, and using the library generally feels familiar to developers who have used Python previously.</p></li>
-<li><p>PyTorch gives us a data type, the <strong>Tensor</strong>, to hold numbers, vectors, matrices, or arrays in general. In addition, it provides functions for operating on them</p></li>
-<li><p>But PyTorch offers two things that make it particularly relevant for deep learning:</p>
-<ul>
-<li><p>it provides accelerated computation using graphical processing units (GPUs), often yielding speedups in the range of 50x over doing the same calculation on a CPU.</p></li>
-<li><p>PyTorch provides facilities that support numerical optimization on generic mathematical expressions, which deep learning uses for training (we can safely characterize PyTorch as a high-performance library with optimization (e.g RMSProp and Adam) support for scientific computing in Python.)</p></li>
-</ul></li>
-<li><p>While it was initially focused on research workflows, PyTorch has been equipped with a high-performance C++ runtime that can be used to deploy models for inference without relying on Python, and can be used for designing and training models in C++.</p></li>
-<li><p>It also has bindings to other languages and an interface for deploying to mobile devices.</p></li>
-</ul>
-<section id="the-deep-learning-learnscapes" class="level3">
-<h3 class="anchored" data-anchor-id="the-deep-learning-learnscapes">The deep learning Learnscapes</h3>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/libraries.png" class="img-fluid"></p>
-</center>
-<ul>
-<li><p>Theano and TensorFlow were the premiere low-level libraries, working with a model that had the user define a computational graph and then execute it.</p></li>
-<li><p>Lasagne and Keras were high-level wrappers around Theano, with Keras wrapping TensorFlow and CNTK as well.</p></li>
-<li><p>Caffe, Chainer, DyNet, Torch (the Lua-based precursor to PyTorch), MXNet, CNTK, DL4J, and others filled various niches in the ecosystem.</p></li>
-</ul>
-<blockquote class="blockquote">
-<p>The community largely consolidated behind either <strong>PyTorch</strong> or <strong>TensorFlow</strong>, with the adoption of other libraries dwindling, except for those filling specific niches.</p>
-</blockquote>
-<ul>
-<li><p>Theano, one of the first deep learning frameworks, has ceased active development.</p></li>
-<li><p>TensorFlow:</p>
-<ul>
-<li><p>Consumed Keras entirely, promoting it to a first-class API (means you can operate on them in the usual manner)</p></li>
-<li><p>Released TF 2.0 with <a href="https://towardsdatascience.com/eager-execution-vs-graph-execution-which-is-better-38162ea4dbf6">eager mode</a> by default (even though slower than graph mode/execution)</p></li>
-</ul></li>
-<li><p>JAX,</p>
-<ul>
-<li>a library by Google that was developed independently from TensorFlow, has started gaining traction as a NumPy equivalent with GPU, autograd and JIT capabilities.</li>
-</ul></li>
-<li><p>PyTorch:</p>
-<ul>
-<li><p>Consumed Caffe2 for its backend</p></li>
-<li><p>Replaced most of the low-level code reused from the Lua-based Torch project</p></li>
-<li><p>Added support for ONNX, a vendor-neutral model description and exchange format</p></li>
-<li><p>Added a delayed-execution “graph mode” runtime called TorchScript</p></li>
-<li><p>Released version 1.0</p></li>
-<li><p>Replaced CNTK and Chainer as the framework of choice by their respective corporate sponsors</p></li>
-</ul></li>
-</ul>
-<blockquote class="blockquote">
-<p>TensorFlow has a robust pipeline to production, an extensive industry-wide community, and massive mindshare. PyTorch has made huge inroads with the research and teaching communities, thanks to its ease of use, and has picked up momentum since, as researchers and graduates train students and move to industry. It has also built up steam in terms of production solutions.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Interestingly, with the advent of TorchScript and eager mode, both PyTorch and TensorFlow have seen their feature sets start to converge with the other’s, though the presentation of these features and the overall experience is still quite different between the two</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/TensorflowvsPytorch.png" class="img-fluid">)</p>
-</center>
-</section>
-</section>
-<section id="an-overview-of-how-pytorch-supports-deep-learning" class="level2">
-<h2 class="anchored" data-anchor-id="an-overview-of-how-pytorch-supports-deep-learning">1.4 An overview of how PyTorch supports deep learning</h2>
-<ul>
-<li><p>Pytorch is written in Python, but there’s a lot of non-Python code in it.</p></li>
-<li><p>For performance reasons, most of PyTorch is written in C++ and <a href="www.geforce.com/hardware/technology/cuda">CUDA</a>, a C++-like language from NVIDIA that can be compiled to run with massive parallelism on GPUs.</p></li>
-<li><p>However, the Python API is where PyTorch shines in term of usability and integration with the wider Python ecosystem</p></li>
-</ul>
-<section id="pytorchs-support-for-deep-learning-tensors-autograd-and-distributed-computing" class="level3">
-<h3 class="anchored" data-anchor-id="pytorchs-support-for-deep-learning-tensors-autograd-and-distributed-computing">PyTorch’s support for deep learning : Tensors, autograd, and distributed computing</h3>
-<ul>
-<li>PyTorch is a library that provides multidimensional arrays, or tensors and an extensive library of operations on them, provided by the torch module.</li>
-</ul>
-<blockquote class="blockquote">
-<p>Tensors is just an n-dimensional array in PyTorch. Tensors support some additional enhancements which make them unique: Apart from CPU, they can be loaded on the GPU for faster computations</p>
-</blockquote>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/tensor.png" class="img-fluid"></p>
-<blockquote class="blockquote">
-<p>A tensor is a generalization of vectors and matrices and is easily understood as a multidimensional array. Tensors are the building blocks of deep learning, and they are the most fundamental data structures in PyTorch (Tensorflow named after Tensor).</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/pytorch_pipeline.png" class="img-fluid"></p>
-</center>
-</section>
-<section id="pytorchs-support-for-deep-learning-autograd-and-distributed-computing" class="level3">
-<h3 class="anchored" data-anchor-id="pytorchs-support-for-deep-learning-autograd-and-distributed-computing">PyTorch’s support for deep learning : Autograd, and distributed computing</h3>
-<ul>
-<li><p>The second core thing that PyTorch provides is the ability of tensors to keep track of the operations performed on them and to analytically compute derivatives of an output of a computation with respect to any of its inputs.</p></li>
-<li><p>This is used for numerical optimization, and it is provided natively by tensors by virtue of dispatching through <a href="https://towardsdatascience.com/pytorch-autograd-understanding-the-heart-of-pytorchs-magic-2686cd94ec95">PyTorch’s autograd</a> engine under the hood.</p></li>
-</ul>
-<blockquote class="blockquote">
-<p><a href="https://towardsdatascience.com/pytorch-autograd-understanding-the-heart-of-pytorchs-magic-2686cd94ec95">PyTorch’s autograd</a> abstracts the complicated mathematics and helps us “magically” calculate gradients of high dimensional curves with only a few lines of code.</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/deep_learning_training.png" class="img-fluid"></p>
-</center>
-<p>On setting <strong>.requires_grad = True</strong> they start forming a backward graph that tracks every operation applied on them to calculate the gradients using something called a dynamic computation graph (DCG).</p>
-<section id="torch.nn" class="level4">
-<h4 class="anchored" data-anchor-id="torch.nn">1 Torch.nn</h4>
-<blockquote class="blockquote">
-<p>The core PyTorch modules for building neural networks are located in torch.nn, which provides common neural network layers and other architectural components. Fully connected layers, convolutional layers, activation functions, and loss functions can all be found here</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/torchnn.png" class="img-fluid"></p>
-</center>
-</section>
-<section id="fetching-data" class="level4">
-<h4 class="anchored" data-anchor-id="fetching-data">2. Fetching data</h4>
-<blockquote class="blockquote">
-<p>We need to convert each sample from our data into a something PyTorch can actually handle: tensors.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>This bridge between our <strong>custom data</strong> (in whatever format it might be) and a** standardized PyTorch tensor** is the <strong>Dataset</strong> class PyTorch provides in torch.utils.data. (Discuss in chapter 4). For example, text data can (), image data (), vedio data ()</p>
-</blockquote>
-<p>As this process is wildly different from one problem to the next, we will have to implement this data sourcing ourselves</p>
-<p>For exaple, Vector data—Rank-2 tensors of shape (samples, features), where each sample is a vector of numerical attributes (“features”)</p>
-<p>Timeseries data or sequence data—Rank-3 tensors of shape (samples, timesteps, features), where each sample is a sequence (of length timesteps) of feature vectors</p>
-<p>Images—Rank-4 tensors of shape (samples, height, width, channels), where each sample is a 2D grid of pixels, and each pixel is represented by a vector of values (“channels”)</p>
-<p>Video—Rank-5 tensors of shape (samples, frames, height, width, channels), where each sample is a sequence (of length frames) of images</p>
-</section>
-<section id="data-batches" class="level4">
-<h4 class="anchored" data-anchor-id="data-batches">2. Data Batches</h4>
-<blockquote class="blockquote">
-<p>As data storage is often slow, we want to parallelize data loading. However, Python does not provide easy, efficient, parallel processing, we will need multiple processes to load our data. In order to assemble them into batches (tensors that encompass several samples). PyTorch provides all that magic in the <strong>DataLoader</strong> class (Chapt 7).</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/pytorch_pipeline.png" class="img-fluid"></p>
-</center>
-</section>
-<section id="training-several-steps" class="level4">
-<h4 class="anchored" data-anchor-id="training-several-steps">Training (several steps)</h4>
-<blockquote class="blockquote">
-<p>At each step in the training loop, we evaluate our model on the samples we got from the data loader. We then compare the outputs of our model to the desired output (the targets) using some criterion or loss function. PyTorch also has a variety of loss functions at our disposal (Torch.nn).</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/deep_learning_training.png" class="img-fluid"></p>
-</center>
-<blockquote class="blockquote">
-<p>After we have compared our actual outputs to the ideal with the loss functions, we need to push the model a little to move its outputs to better resemble the target. This is where the PyTorch autograd engine comes in; but we also need an optimizer doing the updates, and that is what PyTorch offers us in torch.optim. (Chapt 5,6,8)</p>
-</blockquote>
-<p>How you should change your weights or learning rates of your neural network to reduce the losses is defined by the <strong>optimizers</strong> you use !!! The right optimization algorithm can reduce training time exponentially. Optimization algorithms or strategies are responsible for reducing the losses and to provide the most accurate results possible.</p>
-<blockquote class="blockquote">
-<blockquote class="blockquote">
-<p><a href="https://towardsdatascience.com/optimizers-for-training-neural-network-59450d71caf6">Stochastic Gradient Descent, Mini-Batch Gradient Descent, Momentum, Adagrad , AdaDelta , Adam</a></p>
-</blockquote>
-</blockquote>
-<blockquote class="blockquote">
-<p>Gradient Descent is the most basic but most used optimization algorithm. It’s used heavily in linear regression and classification algorithms. Backpropagation in neural networks also uses a gradient descent algorithm</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/dlwp01/images/pytorch_pipeline.png" class="img-fluid"></p>
-</center>
-<section id="parallel-training" class="level5">
-<h5 class="anchored" data-anchor-id="parallel-training">Parallel training</h5>
-<blockquote class="blockquote">
-<p>Sometimes, we need to train on multiple GPU : <strong>torch.nn.parallel.DistributedDataParallel</strong> and the <strong>torch.distributed</strong> submodule can be employed to use the additional hardware.</p>
-</blockquote>
-</section>
-</section>
-<section id="trained-model" class="level4">
-<h4 class="anchored" data-anchor-id="trained-model">4. Trained Model</h4>
-<blockquote class="blockquote">
-<p>The training loop is the most time-consuming part of a deep learning project. At the end of it, we are rewarded with a model whose parameters have been <strong>optimized on our task</strong>. This is the <strong>Trained Model</strong>.</p>
-</blockquote>
-</section>
-<section id="deploying-the-model" class="level4">
-<h4 class="anchored" data-anchor-id="deploying-the-model">5. Deploying the model</h4>
-<blockquote class="blockquote">
-<p>Thi may involve putting the model on a server or exporting it to load it to a cloud engine, Or we might integrate it with a larger application, or run it on a phone.</p>
-</blockquote>
-<p>PyTorch defaults to an <a href="https://towardsdatascience.com/eager-execution-vs-graph-execution-which-is-better-38162ea4dbf6">immediate execution model (eager mode)</a>. Whenever an instruction involving PyTorch is executed by the Python interpreter, the corresponding operation is immediately carried out by the underlying C++ or CUDA implementation. As more instructions operate on tensors, more operations are executed by the backend implementation.</p>
-</section>
-</section>
-</section>
-<section id="hardware-and-software-requirements" class="level2">
-<h2 class="anchored" data-anchor-id="hardware-and-software-requirements">1.5 Hardware and software requirements</h2>
-<ul>
-<li><p>First part can be use on CPU</p></li>
-<li><p>Second part you may need CUDA-enabled GPU with atleast 8GB of memory or better</p></li>
-<li><p>To be clear: GPU is not mandatory if you’re willing to wait, but running on a GPU cuts training time by at least an order of magnitude (and usually it’s 40–50x faster).</p></li>
-<li><p>Colab is a Google-owned cloud environment that runs on Google Cloud Platform. It is a free and open-source platform for creating and sharing interactive and reproducible workflows.</p></li>
-<li><p>Again, training reduced by using multiple GPUs on the same machine, and even further on clusters of machines equipped with multiple GPUs.</p></li>
-<li><p>Part 2 has some nontrivial download bandwidth and disk space requirements as well. The raw data needed for the cancer-detection project in part 2 is about 60 GB to download, and when uncompressed it requires about 120 GB of space.</p></li>
-<li><p>While it is possible to use network storage for this, there might be training speed penalties if the network access is slower than local disk. Preferably you will have space on a local SSD to store the data for fast retrieval</p></li>
-</ul>
-</section>
-<section id="exercises" class="level2">
-<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">import</span> torch</span>
-<span id="cb1-2">x <span class="op" style="color: #5E5E5E;">=</span> torch.rand(<span class="dv" style="color: #AD0000;">5</span>, <span class="dv" style="color: #AD0000;">3</span>)</span>
-<span id="cb1-3"><span class="bu" style="color: null;">print</span>(x)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>tensor([[0.0515, 0.2562, 0.3839],
-        [0.1516, 0.3848, 0.1570],
-        [0.7761, 0.2426, 0.5270],
-        [0.9191, 0.4228, 0.1838],
-        [0.0467, 0.3779, 0.7167]])</code></pre>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>Pytorch</category>
-  <category>Books</category>
-  <guid>https://shmuhammadblog.github.io/blog/dlwp01/chap_01.html</guid>
-  <pubDate>Sun, 17 Apr 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://shmuhammadblog.github.io//blog/dlwp01/book_pic.png" medium="image" type="image/png" height="154" width="144"/>
-</item>
-<item>
-  <title>My First Quatro Post</title>
-  <link>https://shmuhammadblog.github.io/blog/firstblog/index.html</link>
-  <description><![CDATA[ 
-
-
-
-<blockquote class="blockquote">
-<p>Welcome to my Blog!</p>
-</blockquote>
-<div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">import</span> numpy <span class="im" style="color: #00769E;">as</span> np</span>
-<span id="cb1-2"><span class="im" style="color: #00769E;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;">as</span> plt</span>
-<span id="cb1-3"></span>
-<span id="cb1-4">r <span class="op" style="color: #5E5E5E;">=</span> np.arange(<span class="dv" style="color: #AD0000;">0</span>, <span class="dv" style="color: #AD0000;">2</span>, <span class="fl" style="color: #AD0000;">0.01</span>)</span>
-<span id="cb1-5">theta <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">2</span> <span class="op" style="color: #5E5E5E;">*</span> np.pi <span class="op" style="color: #5E5E5E;">*</span> r</span>
-<span id="cb1-6">fig, ax <span class="op" style="color: #5E5E5E;">=</span> plt.subplots(</span>
-<span id="cb1-7">  subplot_kw <span class="op" style="color: #5E5E5E;">=</span> {<span class="st" style="color: #20794D;">'projection'</span>: <span class="st" style="color: #20794D;">'polar'</span>} </span>
-<span id="cb1-8">)</span>
-<span id="cb1-9">ax.plot(theta, r)</span>
-<span id="cb1-10">ax.set_rticks([<span class="fl" style="color: #AD0000;">0.5</span>, <span class="dv" style="color: #AD0000;">1</span>, <span class="fl" style="color: #AD0000;">1.5</span>, <span class="dv" style="color: #AD0000;">2</span>])</span>
-<span id="cb1-11">ax.grid(<span class="va" style="color: #111111;">True</span>)</span>
-<span id="cb1-12">plt.show()</span></code></pre></div>
-<div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center anchored">
+<section id="build-public-profile-and-network" class="level2">
+<h2 class="anchored" data-anchor-id="build-public-profile-and-network">Build public profile and network</h2>
+<p>Putting your work or your skills to the public is a way to put your best foot forwards. Public work can be anything like Tweets, Blog post, GitHub Repo, or Book. Like-minded people with related interests may find your blog post, network with you, and give you feedback. Many opportunities may come in your future career from the network you build. An example of this was when David Robinson answered a question on Stack Overflow<sup>9</sup>, Stack Overflow engineer saw the brilliant answer and hired him (his first job at Stack Overflow). So, a blog allows one to showcase his skills, and other people can benefit from it.</p>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://shmuhammadblog.github.io/blog/firstblog/index_files/figure-html/fig-polar-output-1.png" class="img-fluid figure-img"></p>
+<figure class="figure">
+<img src="https://shmuhammadblog.github.io/blog/whyblog/book-davide.jpg" title="Tweet-Blog-Book" class="img-fluid figure-img">
+</figure>
 <p></p><p></p>
 </figure>
 </div>
-</div>
-</div>
+</section>
+<section id="learning-by-teaching-protégé-effect" class="level2">
+<h2 class="anchored" data-anchor-id="learning-by-teaching-protégé-effect">Learning by teaching (protégé effect)</h2>
+<p>Robert Heinlein said, when one teaches, two learn. It means whenever you teach or explain a concept to someone, you will learn something from it or get a better insight and ultimately reach the “aha” moment. Therefore, writing a good tutorial about a brain-bending concept without dumbing it down is a great way to learn and increase visibility. As Einstein says, “If you can’t explain it simply, you don’t understand it well enough.” A study<sup>10</sup> found that when students teach the lesson’s content (active learning), they develop a more in-depth and longer-lasting understanding of the material than students who do not teach it( passive learning). Therefore, this blog will allow me to write my research and summary of papers and man more. The approach of learning by teaching was widely known as Feynman learning technique<sup>11</sup></p>
+<p><img src="https://shmuhammadblog.github.io/blog/whyblog/feyman.jpg" title="Feyman Learning techniques" class="img-fluid"></p>
+</section>
+<section id="share-my-experience-and-opportunites" class="level2">
+<h2 class="anchored" data-anchor-id="share-my-experience-and-opportunites">Share&nbsp;my experience and opportunites:</h2>
+<p>I naturally love to share my experience and other opportunities with people I know. Therefore, a blog post will serve as a way to share important resources that I come across and find useful. This will benefit a wider audience.</p>
 
 
+</section>
 
- ]]></description>
-  <category>tutorial</category>
-  <category>news</category>
-  <guid>https://shmuhammadblog.github.io/blog/firstblog/index.html</guid>
-  <pubDate>Sun, 17 Apr 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://shmuhammadblog.github.io//blog/firstblog/welcome.jpeg" medium="image" type="image/jpeg"/>
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045">Why you (yes, you) should blog</a>↩︎</p></li>
+<li id="fn2"><p><a href="https://www.youtube.com/watch?v=th79W4rv67g&amp;ab_channel=RStudio">“The unreasonable effectiveness of public work</a>↩︎</p></li>
+<li id="fn3"><p><a href="https://jamesclear.com/deliberate-practice-myth"><strong>T</strong>he Myth and Magic of Deliberate Practice</a>↩︎</p></li>
+<li id="fn4"><p><a href="https://jamesclear.com/atomic-habits">Atomic Habits: Tiny Changes, Remarkable Results.</a>↩︎</p></li>
+<li id="fn5"><p><a href="https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r">Geniuses are made, not born.</a>↩︎</p></li>
+<li id="fn6"><p><a href="https://hbr.org/2007/07/the-making-of-an-expert" title="The making of an expert from Havard Business Review">The making of an expert</a>↩︎</p></li>
+<li id="fn7"><p><a href="https://www.sciencenewsforstudents.org/article/learning-rewires-brain">Learning rewires the brain</a>↩︎</p></li>
+<li id="fn8"><p><a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)#">Rule of three</a>↩︎</p></li>
+<li id="fn9"><p><a href="https://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution">David Robinson’s Stackoverflow Answer that landed him job</a>↩︎</p></li>
+<li id="fn10"><p><a href="https://www.edsurge.com/news/2019-01-24-want-students-to-remember-what-they-learn-have-them-teach-it">Want Students to Remember What They Learn? Have Them Teach It</a>↩︎</p></li>
+<li id="fn11"><p><a href="https://fs.blog/2012/04/feynman-technique/">The Feynman Technique: The Best Way to Learn Anything</a>↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Books</category>
+  <guid>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</guid>
+  <pubDate>Mon, 16 May 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io//blog/whyblog/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

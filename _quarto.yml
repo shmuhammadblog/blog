@@ -6,20 +6,20 @@ project:
     - "_redirects.txt"
 
 website:
-  title: "Shamsuddeen Muhammad's Blog"
+  title: "Shamsuddeen Hassan Muhammad's Blog"
   site-url: https://shmuhammadblog.github.io
   description: "Shamsuddeen Muhammad Blog"
   twitter-card:
      site : "@shmuhammadd"
-     creator : "Shamsuddeen Muhammad"
+     creator : "Shamsuddeen Hassan Muhammad"
   opengraph: true
   navbar:
-    title: "Shamsuddeen Muhammad"
+    title: "Shamsuddeen Hassan Muhammad"
     background: "#000000"
     foreground: "#FFFFFF"
     pinned: true
     left:
-      - text: "Data Scientist and NLP Researcher"
+      - text: "NLP Researcher and Data Scientist"
     right:
       - text: "Navigation"
         menu:

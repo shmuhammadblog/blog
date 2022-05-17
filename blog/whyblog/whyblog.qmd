@@ -1,13 +1,13 @@
 ---
-title: "Why I start Blog"
+title: "Why Should You Start a Blog?"
 format:
   html:
     code-fold: true
 image: featured.jpg
-date: "2022-05-18"
+date: "2022-05-17"
 categories:   
   - Books
-description: "Blogging is one of the bset way to learn"
+description: "Welcome to my Quarto Blog"
 ---
 
 Over a few years, I've been holding off writing blog posts consistently. I started in 2018 and stopped after two blog posts. Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, "Why you should write blogpost"[^1] and watched an RStudio talk by David Robinson, "The unreasonable effectiveness of public work."[^2] Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D. student, writing habits will strongly build my writing and creativity muscles to the max.
