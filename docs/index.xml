@@ -100,7 +100,9 @@
 
 
 
-<p>Over a few years, I’ve been holding off writing blog posts consistently. I started in 2018 and stopped after two blog posts.&nbsp;Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, “Why you should write blogpost”<sup>1</sup> and watched an RStudio talk by David Robinson, “The unreasonable effectiveness of public work.”<sup>2</sup> Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D.&nbsp;student, writing habits will strongly build my writing and creativity muscles to the max.</p>
+<p>My mentor, <a href="https://ruder.io">Sebastian Ruder</a> advises PhD student to write blog and has this to say: “Having a blog is the single thing that has led to the most positive interactions throughout my PhD”<sup>1</sup></p>
+<p>Over a few years, I’ve been holding off writing blog posts consistently. I started in 2018 and stopped after two blog posts.&nbsp;Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, “Why you should write blogpost”[^2] and watched an RStudio talk by David Robinson, “The unreasonable effectiveness of public work.”<sup>2</sup> Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D.&nbsp;student, writing habits will strongly build my writing and creativity muscles to the max.</p>
+<p>[^2: <a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045">Why you (yes, you) should blog</a></p>
 <p><img src="https://shmuhammadblog.github.io/blog/whyblog/lets-try.jpg" title="Lets try" class="img-fluid"></p>
 <p>There are many reasons one writes a blog. For me, below are only five reasons I think a blog will help me along the way of building my career.</p>
 <section id="deliberate-practice" class="level2">
@@ -137,6 +139,10 @@
 <section id="share-my-experience-and-opportunites" class="level2">
 <h2 class="anchored" data-anchor-id="share-my-experience-and-opportunites">Share&nbsp;my experience and opportunites:</h2>
 <p>I naturally love to share my experience and other opportunities with people I know. Therefore, a blog post will serve as a way to share important resources that I come across and find useful. This will benefit a wider audience.</p>
+<style>
+body {
+text-align: justify}
+</style>
 
 
 </section>
@@ -145,7 +151,7 @@
 <div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p><a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045">Why you (yes, you) should blog</a>↩︎</p></li>
+<li id="fn1"><p><a href="https://ruder.io/10-tips-for-research-and-a-phd/index.html#6-write-a-blog-">10 Tips for Research and a PhD</a>↩︎</p></li>
 <li id="fn2"><p><a href="https://www.youtube.com/watch?v=th79W4rv67g&amp;ab_channel=RStudio">“The unreasonable effectiveness of public work</a>↩︎</p></li>
 <li id="fn3"><p><a href="https://jamesclear.com/deliberate-practice-myth"><strong>T</strong>he Myth and Magic of Deliberate Practice</a>↩︎</p></li>
 <li id="fn4"><p><a href="https://jamesclear.com/atomic-habits">Atomic Habits: Tiny Changes, Remarkable Results.</a>↩︎</p></li>
