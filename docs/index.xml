@@ -9,8 +9,177 @@
 <link>https://shmuhammadblog.github.io/index.html</link>
 <atom:link href="https://shmuhammadblog.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shamsuddeen Muhammad Blog</description>
-<generator>quarto-99.9.9</generator>
-<lastBuildDate>Sun, 17 Apr 2022 23:00:00 GMT</lastBuildDate>
+<generator>quarto-0.9.410</generator>
+<lastBuildDate>Mon, 16 May 2022 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Daily Coding Problem</title>
+  <link>https://shmuhammadblog.github.io/blog/coding_0001/index copy.html</link>
+  <description><![CDATA[ 
+
+
+
+<blockquote class="blockquote">
+<p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.</p>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;">|</span> <span class="bu" style="color: null;">eval</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">False</span></span>
+<span id="cb1-2"></span>
+<span id="cb1-3">Example <span class="dv" style="color: #AD0000;">1</span>:</span>
+<span id="cb1-4"></span>
+<span id="cb1-5">Input: nums <span class="op" style="color: #5E5E5E;">=</span> [<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">7</span>,<span class="dv" style="color: #AD0000;">11</span>,<span class="dv" style="color: #AD0000;">15</span>], target <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">9</span></span>
+<span id="cb1-6">Output: [<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">1</span>]</span>
+<span id="cb1-7">Explanation: Because nums[<span class="dv" style="color: #AD0000;">0</span>] <span class="op" style="color: #5E5E5E;">+</span> nums[<span class="dv" style="color: #AD0000;">1</span>] <span class="op" style="color: #5E5E5E;">==</span> <span class="dv" style="color: #AD0000;">9</span>, we <span class="cf" style="color: #003B4F;">return</span> [<span class="dv" style="color: #AD0000;">0</span>, <span class="dv" style="color: #AD0000;">1</span>].</span>
+<span id="cb1-8"></span>
+<span id="cb1-9">Example <span class="dv" style="color: #AD0000;">2</span>:</span>
+<span id="cb1-10"></span>
+<span id="cb1-11">Input: nums <span class="op" style="color: #5E5E5E;">=</span> [<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">4</span>], target <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">6</span></span>
+<span id="cb1-12">Output: [<span class="dv" style="color: #AD0000;">1</span>,<span class="dv" style="color: #AD0000;">2</span>]</span>
+<span id="cb1-13">Example <span class="dv" style="color: #AD0000;">3</span>:</span>
+<span id="cb1-14"></span>
+<span id="cb1-15">Input: nums <span class="op" style="color: #5E5E5E;">=</span> [<span class="dv" style="color: #AD0000;">3</span>,<span class="dv" style="color: #AD0000;">3</span>], target <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">6</span></span>
+<span id="cb1-16">Output: [<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">1</span>]</span>
+<span id="cb1-17"> </span>
+<span id="cb1-18"></span>
+<span id="cb1-19">Constraints:</span>
+<span id="cb1-20"></span>
+<span id="cb1-21"><span class="dv" style="color: #AD0000;">2</span> <span class="op" style="color: #5E5E5E;">&lt;=</span> nums.length <span class="op" style="color: #5E5E5E;">&lt;=</span> <span class="dv" style="color: #AD0000;">104</span></span>
+<span id="cb1-22"><span class="op" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">109</span> <span class="op" style="color: #5E5E5E;">&lt;=</span> nums[i] <span class="op" style="color: #5E5E5E;">&lt;=</span> <span class="dv" style="color: #AD0000;">109</span></span>
+<span id="cb1-23"><span class="op" style="color: #5E5E5E;">-</span><span class="dv" style="color: #AD0000;">109</span> <span class="op" style="color: #5E5E5E;">&lt;=</span> target <span class="op" style="color: #5E5E5E;">&lt;=</span> <span class="dv" style="color: #AD0000;">109</span></span>
+<span id="cb1-24">Only one valid answer exists.</span></code></pre></div>
+</div>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;">class</span> Solution(<span class="bu" style="color: null;">object</span>):</span>
+<span id="cb2-2">    <span class="co" style="color: #5E5E5E;">"""_summary_</span></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;">    Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.</span></span>
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;">    Example:</span></span>
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;">    Given nums = [2, 7, 11, 15], target = 9,</span></span>
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;">    Because nums[0] + nums[1] = 2 + 7 = 9,</span></span>
+<span id="cb2-7"><span class="co" style="color: #5E5E5E;">    </span></span>
+<span id="cb2-8"><span class="co" style="color: #5E5E5E;">    Returns:</span></span>
+<span id="cb2-9"><span class="co" style="color: #5E5E5E;">        _type_: return [0, 1]</span></span>
+<span id="cb2-10"><span class="co" style="color: #5E5E5E;">    """</span>      </span>
+<span id="cb2-11">    <span class="kw" style="color: #003B4F;">def</span> twoSum(<span class="va" style="color: #111111;">self</span>, nums, target):</span>
+<span id="cb2-12">        mapping <span class="op" style="color: #5E5E5E;">=</span> {}</span>
+<span id="cb2-13"></span>
+<span id="cb2-14">        <span class="cf" style="color: #003B4F;">for</span> index, val <span class="kw" style="color: #003B4F;">in</span> <span class="bu" style="color: null;">enumerate</span>(nums):</span>
+<span id="cb2-15">            diff <span class="op" style="color: #5E5E5E;">=</span> target <span class="op" style="color: #5E5E5E;">-</span> val</span>
+<span id="cb2-16">            <span class="cf" style="color: #003B4F;">if</span> diff <span class="kw" style="color: #003B4F;">in</span> mapping:</span>
+<span id="cb2-17">                <span class="cf" style="color: #003B4F;">return</span> [index, mapping[diff]]</span>
+<span id="cb2-18">            <span class="cf" style="color: #003B4F;">else</span>:</span>
+<span id="cb2-19">                mapping[val] <span class="op" style="color: #5E5E5E;">=</span> index</span></code></pre></div>
+</div>
+<p>Running an example</p>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">answer <span class="op" style="color: #5E5E5E;">=</span> Solution() <span class="co" style="color: #5E5E5E;"># create an instance of the class</span></span>
+<span id="cb3-2"></span>
+<span id="cb3-3">nums <span class="op" style="color: #5E5E5E;">=</span> [<span class="dv" style="color: #AD0000;">2</span>, <span class="dv" style="color: #AD0000;">7</span>, <span class="dv" style="color: #AD0000;">11</span>, <span class="dv" style="color: #AD0000;">15</span>] <span class="co" style="color: #5E5E5E;"># input</span></span>
+<span id="cb3-4">target <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">9</span>            <span class="co" style="color: #5E5E5E;"># input</span></span>
+<span id="cb3-5"></span>
+<span id="cb3-6">answer.twoSum(nums, target) <span class="co" style="color: #5E5E5E;"># call the method</span></span></code></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+<pre><code>[1, 0]</code></pre>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>dailypython</category>
+  <category>python</category>
+  <guid>https://shmuhammadblog.github.io/blog/coding_0001/index copy.html</guid>
+  <pubDate>Mon, 16 May 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io//blog/coding_0001/welcome.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Daily Coding Problem</title>
+  <link>https://shmuhammadblog.github.io/blog/Terminal/index copy.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</p>
+<p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+<p>You can return the answer in any order.</p>
+<p>Example 1:</p>
+<p>Input: nums = [2,7,11,15], target = 9 Output: [0,1] Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].</p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">Given an array of integers nums <span class="kw" style="color: #003B4F;">and</span> an integer target, <span class="cf" style="color: #003B4F;">return</span> indices of the two numbers such that they add up to target.</span>
+<span id="cb1-2"></span>
+<span id="cb1-3">You may assume that each <span class="bu" style="color: null;">input</span> would have exactly one solution, <span class="kw" style="color: #003B4F;">and</span> you may <span class="kw" style="color: #003B4F;">not</span> use the same element twice.</span>
+<span id="cb1-4"></span>
+<span id="cb1-5">You can <span class="cf" style="color: #003B4F;">return</span> the answer <span class="kw" style="color: #003B4F;">in</span> <span class="bu" style="color: null;">any</span> order.</span>
+<span id="cb1-6"></span>
+<span id="cb1-7"> </span>
+<span id="cb1-8"></span>
+<span id="cb1-9">Example <span class="dv" style="color: #AD0000;">1</span>:</span>
+<span id="cb1-10"></span>
+<span id="cb1-11">Input: nums <span class="op" style="color: #5E5E5E;">=</span> [<span class="dv" style="color: #AD0000;">2</span>,<span class="dv" style="color: #AD0000;">7</span>,<span class="dv" style="color: #AD0000;">11</span>,<span class="dv" style="color: #AD0000;">15</span>], target <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">9</span></span>
+<span id="cb1-12">Output: [<span class="dv" style="color: #AD0000;">0</span>,<span class="dv" style="color: #AD0000;">1</span>]</span>
+<span id="cb1-13">Explanation: Because nums[<span class="dv" style="color: #AD0000;">0</span>] <span class="op" style="color: #5E5E5E;">+</span> nums[<span class="dv" style="color: #AD0000;">1</span>] <span class="op" style="color: #5E5E5E;">==</span> <span class="dv" style="color: #AD0000;">9</span>, we <span class="cf" style="color: #003B4F;">return</span> [<span class="dv" style="color: #AD0000;">0</span>, <span class="dv" style="color: #AD0000;">1</span>].</span></code></pre></div>
+<div class="cell-output cell-output-display">
+<div id="fig-polar" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://shmuhammadblog.github.io/blog/Terminal/index%20copy_files/figure-html/fig-polar-output-1.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>tutorial</category>
+  <category>news</category>
+  <guid>https://shmuhammadblog.github.io/blog/Terminal/index copy.html</guid>
+  <pubDate>Sun, 17 Apr 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io//blog/Terminal/welcome.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>My First Quatro Post</title>
+  <link>https://shmuhammadblog.github.io/blog/Terminal/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<blockquote class="blockquote">
+<p>Welcome to my Blog!</p>
+</blockquote>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">import</span> numpy <span class="im" style="color: #00769E;">as</span> np</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;">as</span> plt</span>
+<span id="cb1-3"></span>
+<span id="cb1-4">r <span class="op" style="color: #5E5E5E;">=</span> np.arange(<span class="dv" style="color: #AD0000;">0</span>, <span class="dv" style="color: #AD0000;">2</span>, <span class="fl" style="color: #AD0000;">0.01</span>)</span>
+<span id="cb1-5">theta <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">2</span> <span class="op" style="color: #5E5E5E;">*</span> np.pi <span class="op" style="color: #5E5E5E;">*</span> r</span>
+<span id="cb1-6">fig, ax <span class="op" style="color: #5E5E5E;">=</span> plt.subplots(</span>
+<span id="cb1-7">  subplot_kw <span class="op" style="color: #5E5E5E;">=</span> {<span class="st" style="color: #20794D;">'projection'</span>: <span class="st" style="color: #20794D;">'polar'</span>} </span>
+<span id="cb1-8">)</span>
+<span id="cb1-9">ax.plot(theta, r)</span>
+<span id="cb1-10">ax.set_rticks([<span class="fl" style="color: #AD0000;">0.5</span>, <span class="dv" style="color: #AD0000;">1</span>, <span class="fl" style="color: #AD0000;">1.5</span>, <span class="dv" style="color: #AD0000;">2</span>])</span>
+<span id="cb1-11">ax.grid(<span class="va" style="color: #111111;">True</span>)</span>
+<span id="cb1-12">plt.show()</span></code></pre></div>
+<div class="cell-output cell-output-display">
+<div id="fig-polar" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://shmuhammadblog.github.io/blog/Terminal/index_files/figure-html/fig-polar-output-1.png" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>tutorial</category>
+  <category>news</category>
+  <guid>https://shmuhammadblog.github.io/blog/Terminal/index.html</guid>
+  <pubDate>Sun, 17 Apr 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io//blog/Terminal/welcome.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Chapter one Summary</title>
   <link>https://shmuhammadblog.github.io/blog/dlwp01/chap_01.html</link>
@@ -292,7 +461,7 @@
 <section id="exercises" class="level2">
 <h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
 <div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: null;">import</span> torch</span>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">import</span> torch</span>
 <span id="cb1-2">x <span class="op" style="color: #5E5E5E;">=</span> torch.rand(<span class="dv" style="color: #AD0000;">5</span>, <span class="dv" style="color: #AD0000;">3</span>)</span>
 <span id="cb1-3"><span class="bu" style="color: null;">print</span>(x)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -326,8 +495,8 @@
 <p>Welcome to my Blog!</p>
 </blockquote>
 <div class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: null;">import</span> numpy <span class="im" style="color: null;">as</span> np</span>
-<span id="cb1-2"><span class="im" style="color: null;">import</span> matplotlib.pyplot <span class="im" style="color: null;">as</span> plt</span>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">import</span> numpy <span class="im" style="color: #00769E;">as</span> np</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;">as</span> plt</span>
 <span id="cb1-3"></span>
 <span id="cb1-4">r <span class="op" style="color: #5E5E5E;">=</span> np.arange(<span class="dv" style="color: #AD0000;">0</span>, <span class="dv" style="color: #AD0000;">2</span>, <span class="fl" style="color: #AD0000;">0.01</span>)</span>
 <span id="cb1-5">theta <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">2</span> <span class="op" style="color: #5E5E5E;">*</span> np.pi <span class="op" style="color: #5E5E5E;">*</span> r</span>

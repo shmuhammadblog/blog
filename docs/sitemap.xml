@@ -2,26 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://shmuhammadblog.github.io/til.html</loc>
-    <lastmod>2022-04-19T09:06:19.988Z</lastmod>
+    <lastmod>2022-05-17T05:52:02.730Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/index.html</loc>
-    <lastmod>2022-04-19T09:06:21.207Z</lastmod>
+    <lastmod>2022-05-17T05:52:05.889Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/blog/Terminal/index copy.html</loc>
+    <lastmod>2022-05-17T05:52:07.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/blog/Terminal/index.html</loc>
+    <lastmod>2022-05-17T05:52:08.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/blog/coding_0001/index copy.html</loc>
+    <lastmod>2022-05-17T05:52:10.323Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/dlwp01/chap_01.html</loc>
-    <lastmod>2022-04-19T09:06:23.700Z</lastmod>
+    <lastmod>2022-05-17T05:52:12.443Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/firstblog/index.html</loc>
-    <lastmod>2022-04-19T09:06:25.172Z</lastmod>
+    <lastmod>2022-05-17T05:52:14.655Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/about.html</loc>
-    <lastmod>2022-04-19T09:06:25.891Z</lastmod>
+    <lastmod>2022-05-17T05:52:15.801Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/license.html</loc>
-    <lastmod>2022-04-19T09:06:26.525Z</lastmod>
+    <lastmod>2022-05-17T05:52:16.898Z</lastmod>
   </url>
 </urlset>

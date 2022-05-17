@@ -4,14 +4,42 @@
     "href": "til.html",
     "title": "Today I Learned",
     "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Pytorch\n\n\nBooks\n\n\n\n\nIt discussed how deep learning changes our approach to machine learning and why PyTorch is a good fit for deep learning\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntutorial\n\n\nnews\n\n\n\n\nWelcome to my Blog\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "dailypython\n\n\npython\n\n\n\n\nDaily coding practice\n\n\n\n\n\n\nMay 17, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntutorial\n\n\nnews\n\n\n\n\nWelcome to my Blog\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntutorial\n\n\nnews\n\n\n\n\nWelcome to my Blog\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nPytorch\n\n\nBooks\n\n\n\n\nIt discussed how deep learning changes our approach to machine learning and why PyTorch is a good fit for deep learning\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ntutorial\n\n\nnews\n\n\n\n\nWelcome to my Blog\n\n\n\n\n\n\nApr 18, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/Terminal/index copy.html",
+    "href": "blog/Terminal/index copy.html",
+    "title": "Daily Coding Problem",
+    "section": "",
+    "text": "You may assume that each input would have exactly one solution, and you may not use the same element twice.\nYou can return the answer in any order.\nExample 1:\nInput: nums = [2,7,11,15], target = 9 Output: [0,1] Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].\n\nGiven an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.\n\n \n\nExample 1:\n\nInput: nums = [2,7,11,15], target = 9\nOutput: [0,1]\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "blog/Terminal/index.html",
+    "href": "blog/Terminal/index.html",
+    "title": "My First Quatro Post",
+    "section": "",
+    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "blog/coding_0001/index copy.html",
+    "href": "blog/coding_0001/index copy.html",
+    "title": "Daily Coding Problem",
+    "section": "",
+    "text": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order."
+  },
+  {
+    "objectID": "blog/coding_0001/index copy.html#solution",
+    "href": "blog/coding_0001/index copy.html#solution",
+    "title": "Daily Coding Problem",
+    "section": "Solution",
+    "text": "Solution\n\nclass Solution(object):\n    \"\"\"_summary_\n    Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.\n    Example:\n    Given nums = [2, 7, 11, 15], target = 9,\n    Because nums[0] + nums[1] = 2 + 7 = 9,\n    \n    Returns:\n        _type_: return [0, 1]\n    \"\"\"      \n    def twoSum(self, nums, target):\n        mapping = {}\n\n        for index, val in enumerate(nums):\n            diff = target - val\n            if diff in mapping:\n                return [index, mapping[diff]]\n            else:\n                mapping[val] = index\n\nRunning an example\n\nanswer = Solution() # create an instance of the class\n\nnums = [2, 7, 11, 15] # input\ntarget = 9            # input\n\nanswer.twoSum(nums, target) # call the method\n\n[1, 0]"
   },
   {
     "objectID": "blog/dlwp01/chap_01.html#pre-requisites",
