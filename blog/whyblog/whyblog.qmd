@@ -14,7 +14,7 @@ description: "Welcome to my Quarto Blog"
 
 [^1]: [10 Tips for Research and a PhD](https://ruder.io/10-tips-for-research-and-a-phd/index.html#6-write-a-blog-)
 
-Over a few years, I've been holding off writing blog posts consistently. I started in 2018 and stopped after two blog posts. Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, "Why you should write blogpost"[^2] and watched an RStudio talk by David Robinson, "The unreasonable effectiveness of public work."[^3] Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D. student, writing habits will strongly build my writing and creativity muscles to the max.
+I was inspired, but I've been holding off writing blog posts consistently. I started in 2020 and stopped after two blog posts. Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, "Why you should write blogpost"[^2] and watched an RStudio talk by David Robinson, "The unreasonable effectiveness of public work."[^3] Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D. student, writing habits will strongly build my writing and creativity muscles to the max.
 
 [^2]: [Why you (yes, you) should blog](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
 
