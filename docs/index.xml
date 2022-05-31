@@ -24,56 +24,40 @@
 <p>Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. In this chapter, I discuss several tools that help tackle this from the command line, including: curl33, in2csv34, sql2csv35, and tar36.</p>
 </blockquote>
 <p><img src="https://shmuhammadblog.github.io/blog/obtaining data/terminal2.png" class="img-fluid"></p>
-<section id="copying-local-files-to-the-docker-container" class="level3">
-<h3 class="anchored" data-anchor-id="copying-local-files-to-the-docker-container">Copying Local Files to the Docker Container</h3>
-<ul>
-<li>Before we copy file to the container, Let us create a directory in the container.</li>
-<li>find the container ID we want copy file to</li>
-<li>copy the file to the container using cp command</li>
-<li>check the file in the container</li>
-</ul>
-<div class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;">!</span>docker ps</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>CONTAINER ID   IMAGE                         COMMAND          CREATED       STATUS       PORTS     NAMES
-f49bee0d702d   datasciencetoolbox/dsatcl2e   "/usr/bin/zsh"   3 hours ago   Up 3 hours             heuristic_proskuriakova</code></pre>
-</div>
-</div>
-</section>
-<section id="downloading-from-the-internet" class="level2">
-<h2 class="anchored" data-anchor-id="downloading-from-the-internet">Downloading from the Internet</h2>
+<section id="downloading-from-the-internet-using-curl" class="level2">
+<h2 class="anchored" data-anchor-id="downloading-from-the-internet-using-curl">Downloading from the Internet using Curl</h2>
 <p><strong>Curl</strong> and <strong>wget</strong> are command line tools that allows you to download files from the Internet. curl and wget are installed by default on most Linux systems. if you do not have either tool installed, you can use the commands below to install curl and wget on Ubuntu.</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1">   <span class="fu" style="color: #4758AB;">sudo</span> apt install curl</span>
-<span id="cb3-2">   <span class="fu" style="color: #4758AB;">sudo</span> apt install wget</span></code></pre></div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1">   <span class="fu" style="color: #4758AB;">sudo</span> apt install curl</span>
+<span id="cb1-2">   <span class="fu" style="color: #4758AB;">sudo</span> apt install wget</span></code></pre></div>
 <p>If you are using a Mac, you can install curl and wget using the following commands:</p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1">    <span class="ex" style="color: null;">brew</span> install curl</span>
-<span id="cb4-2">    <span class="ex" style="color: null;">brew</span> install wget</span></code></pre></div>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1">    <span class="ex" style="color: null;">brew</span> install curl</span>
+<span id="cb2-2">    <span class="ex" style="color: null;">brew</span> install wget</span></code></pre></div>
 <section id="how-to-use-curl" class="level4">
 <h4 class="anchored" data-anchor-id="how-to-use-curl">How to Use Curl</h4>
 <p>The curl syntax is : curl [options] [URL…]. In its simplest form, curl is used to download a file from the Internet without any options.</p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1">    <span class="ex" style="color: null;">curl</span> example.com</span></code></pre></div>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1">    <span class="ex" style="color: null;">curl</span> example.com</span></code></pre></div>
 <p>The above example, curl displays the contents of the file to the standard output. The command above will download and print the source code of the example.com homepage in your terminal window.</p>
 </section>
 <section id="save-the-output-to-a-file" class="level4">
 <h4 class="anchored" data-anchor-id="save-the-output-to-a-file">Save the Output to a File</h4>
 <p>We can use the -o option to save the output to a file.</p>
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1">    <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-o</span> example.html example.com</span></code></pre></div>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1">    <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-o</span> example.html example.com</span></code></pre></div>
 <p>The above example will save the output to a file named example.html instead of printing it to the terminal. You can also redirect the output to a file using the &gt; operator.</p>
-<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1">    <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-o</span> example.com <span class="op" style="color: #5E5E5E;">&gt;</span> example.html</span></code></pre></div>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1">    <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-o</span> example.com <span class="op" style="color: #5E5E5E;">&gt;</span> example.html</span></code></pre></div>
 <p>We can also use O (uppercase) to save to original file name</p>
-<div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"></span>
-<span id="cb8-2">   <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-O</span> example.com</span></code></pre></div>
+<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"></span>
+<span id="cb6-2">   <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-O</span> example.com</span></code></pre></div>
 <p>The above example will save the output to a file named example.com instead of printing it to the terminal.</p>
 <p>Sometimes, it’s a good idea to set the verbose mode on. This may provide useful information about the progress of the download.</p>
-<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"></span>
-<span id="cb9-2"><span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-v</span> example.com</span></code></pre></div>
+<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"></span>
+<span id="cb7-2"><span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-v</span> example.com</span></code></pre></div>
 <p>curl outputs a progress meter that shows the download rate and the expected time of completion. You can also use the -s option to hide the progress meter and the progress.</p>
-<div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-s</span> example.com</span></code></pre></div>
+<div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-s</span> example.com</span></code></pre></div>
 </section>
-<section id="following-redirects" class="level3">
-<h3 class="anchored" data-anchor-id="following-redirects">Following Redirects</h3>
+<section id="following-redirects" class="level4">
+<h4 class="anchored" data-anchor-id="following-redirects">Following Redirects</h4>
 <p>When accessing shortened URL with curl, such as http://bit.ly/, we need to set the -L option to automatically follow redirects</p>
-<div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1">    <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-L</span> http://bit.ly/</span></code></pre></div>
+<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1">    <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-L</span> http://bit.ly/</span></code></pre></div>
 </section>
 </section>
 <section id="tar-and-unzip" class="level2">
