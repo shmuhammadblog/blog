@@ -171,5 +171,178 @@ text-align: justify}
   <pubDate>Mon, 16 May 2022 23:00:00 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io//blog/whyblog/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
+<item>
+  <title>Why Should You Start a Blog?</title>
+  <link>https://shmuhammadblog.github.io/blog/dailyML0001/whyblog/whyblog.html</link>
+  <description><![CDATA[ 
+
+
+
+<blockquote class="blockquote">
+<p>My mentor, <a href="https://ruder.io">Sebastian Ruder</a> advises PhD students to write blogs and has this to say: “Having a blog is the single thing that has led to the most positive interactions throughout my PhD.”<sup>1</sup></p>
+</blockquote>
+<p>I was inspired, but I’ve been holding off writing blog posts consistently. I started in 2020 and stopped after two blog posts.&nbsp;Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, “Why you should write blogpost”<sup>2</sup> and watched an RStudio talk by David Robinson, “The unreasonable effectiveness of public work.”<sup>3</sup> Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D.&nbsp;student, writing habits will strongly build my writing and creativity muscles to the max.</p>
+<p><img src="https://shmuhammadblog.github.io/blog/dailyML0001/whyblog/lets-try.jpg" title="Lets try" class="img-fluid"></p>
+<p>There are many reasons one writes a blog. For me, below are only five reasons I think a blog will help me along the way of building my career.</p>
+<section id="deliberate-practice" class="level2">
+<h2 class="anchored" data-anchor-id="deliberate-practice">Deliberate practice</h2>
+<p>Deliberate practice&nbsp;is a systematic, focused, consistent, goal-oriented training that builds expertise or improves performance.<sup>4</sup><sup>5</sup> Building expertise in any field is not a marathon; it is a series of Sprints. Evidence has shown that experts or geniuses are always made, not born<sup>6</sup> <sup>7</sup>. For example, bodybuilders, musicians, and footballers consistently practice to achieve mastery. No one becomes an expert from day one. The same is also true for writing and any other skills. Consistent writing, even small content but engaging and informative, will improve your writing skills. As we fondly say, “practice makes perfect.” Consistent practice allows one to do a task while thinking about other things. For example, a professional orator can deliver an excellent speech without reading from any single note. Stopping to think about the task can sometimes result in a flawless performance. People refer to this performance as being “in the zone. Aristotle said:”We are what we repeatedly do. Excellence, then, is not an act, but a habit.”&nbsp;</p>
+<p>Deliberate practice does not make what we learn easier; it changes the brain (Myelination). This concept is notably expressed as “<em>cells that fire together, wire together</em>.” Sometimes, we reach an “aha!” moment when learning difficult stuff - that is when someone has been struggling to understand a concept, and it suddenly becomes apparent - the clarity does not come out of nowhere.</p>
+<blockquote class="blockquote">
+<p>Rather, it results from a steady accumulation of information. That’s because adding additional information opens up memories associated with the task. Once those memory neurons are active, they can form new connections. They also can form stronger connections within an existing network. Over time, your level of understanding increases until you suddenly “get” it <sup>8</sup>.</p>
+</blockquote>
+<p>Therefore, this blog will serve as a way for me to do deliberate practices of many skills (writing, machine learning, visualization, python, r and, many more)</p>
+</section>
+<section id="repository-for-my-future-self" class="level2">
+<h2 class="anchored" data-anchor-id="repository-for-my-future-self">Repository for my future self</h2>
+<p>I am absent-minded. I write code and forget how I did it or google the same thing many times So, anything that I often google or write a complex program, I will write a blog post on it. That way, I will refer to it. Hadley Wickham inspired me in his book R for Data Science; he said, if you write the same code three times, then, you write a function for that code. Hadley’s idea was adapted from code refactoring rule of thumb (Rule of three), which states that “two instances of similar code don’t require refactoring, but when similar code is used three times, it should be extracted into a new procedure.”<sup>9</sup></p>
+<p><img src="https://shmuhammadblog.github.io/blog/dailyML0001/whyblog/write-blog.png" class="img-fluid"></p>
+</section>
+<section id="build-public-profile-and-network" class="level2">
+<h2 class="anchored" data-anchor-id="build-public-profile-and-network">Build public profile and network</h2>
+<p>Putting your work or your skills to the public is a way to put your best foot forwards. Public work can be anything like Tweets, Blog post, GitHub Repo, or Book. Like-minded people with related interests may find your blog post, network with you, and give you feedback. Many opportunities may come in your future career from the network you build. An example of this was when David Robinson answered a question on Stack Overflow<sup>10</sup>, Stack Overflow engineer saw the brilliant answer and hired him (his first job at Stack Overflow). So, a blog allows one to showcase his skills, and other people can benefit from it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figure class="figure">
+<img src="https://shmuhammadblog.github.io/blog/dailyML0001/whyblog/book-davide.jpg" title="Tweet-Blog-Book" class="img-fluid figure-img">
+</figure>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="learning-by-teaching-protégé-effect" class="level2">
+<h2 class="anchored" data-anchor-id="learning-by-teaching-protégé-effect">Learning by teaching (protégé effect)</h2>
+<p>Robert Heinlein said, when one teaches, two learn. It means whenever you teach or explain a concept to someone, you will learn something from it or get a better insight and ultimately reach the “aha” moment. Therefore, writing a good tutorial about a brain-bending concept without dumbing it down is a great way to learn and increase visibility. As Einstein says, “If you can’t explain it simply, you don’t understand it well enough.” A study<sup>11</sup> found that when students teach the lesson’s content (active learning), they develop a more in-depth and longer-lasting understanding of the material than students who do not teach it( passive learning). Therefore, this blog will allow me to write my research and summary of papers and man more. The approach of learning by teaching was widely known as Feynman learning technique<sup>12</sup></p>
+<p><img src="https://shmuhammadblog.github.io/blog/dailyML0001/whyblog/feyman.jpg" title="Feyman Learning techniques" class="img-fluid"></p>
+</section>
+<section id="share-my-experience-and-opportunites" class="level2">
+<h2 class="anchored" data-anchor-id="share-my-experience-and-opportunites">Share&nbsp;my experience and opportunites:</h2>
+<p>I naturally love to share my experience and other opportunities with people I know. Therefore, a blog post will serve as a way to share important resources that I come across and find useful. This will benefit a wider audience.</p>
+<style>
+body {
+text-align: justify}
+</style>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://ruder.io/10-tips-for-research-and-a-phd/index.html#6-write-a-blog-">10 Tips for Research and a PhD</a>↩︎</p></li>
+<li id="fn2"><p><a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045">Why you (yes, you) should blog</a>↩︎</p></li>
+<li id="fn3"><p><a href="https://www.youtube.com/watch?v=th79W4rv67g&amp;ab_channel=RStudio">“The unreasonable effectiveness of public work</a>↩︎</p></li>
+<li id="fn4"><p><a href="https://jamesclear.com/deliberate-practice-myth"><strong>T</strong>he Myth and Magic of Deliberate Practice</a>↩︎</p></li>
+<li id="fn5"><p><a href="https://jamesclear.com/atomic-habits">Atomic Habits: Tiny Changes, Remarkable Results.</a>↩︎</p></li>
+<li id="fn6"><p><a href="https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Polg%C3%A1r">Geniuses are made, not born.</a>↩︎</p></li>
+<li id="fn7"><p><a href="https://hbr.org/2007/07/the-making-of-an-expert" title="The making of an expert from Havard Business Review">The making of an expert</a>↩︎</p></li>
+<li id="fn8"><p><a href="https://www.sciencenewsforstudents.org/article/learning-rewires-brain">Learning rewires the brain</a>↩︎</p></li>
+<li id="fn9"><p><a href="https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)#">Rule of three</a>↩︎</p></li>
+<li id="fn10"><p><a href="https://stats.stackexchange.com/questions/47771/what-is-the-intuition-behind-beta-distribution">David Robinson’s Stackoverflow Answer that landed him job</a>↩︎</p></li>
+<li id="fn11"><p><a href="https://www.edsurge.com/news/2019-01-24-want-students-to-remember-what-they-learn-have-them-teach-it">Want Students to Remember What They Learn? Have Them Teach It</a>↩︎</p></li>
+<li id="fn12"><p><a href="https://fs.blog/2012/04/feynman-technique/">The Feynman Technique: The Best Way to Learn Anything</a>↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Books</category>
+  <guid>https://shmuhammadblog.github.io/blog/dailyML0001/whyblog/whyblog.html</guid>
+  <pubDate>Mon, 16 May 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io//blog/dailyML0001/whyblog/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Dimentionality Reduction in Machine Learning?</title>
+  <link>https://shmuhammadblog.github.io/blog/dailyML0001/whyblog.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="question-of-the-day-rileys-speed-dating-match" class="level2">
+<h2 class="anchored" data-anchor-id="question-of-the-day-rileys-speed-dating-match">Question of the day : Riley’s speed-dating match</h2>
+<p>If you spend all day sitting at a desk, you can’t expect to have many opportunities to meet interesting people.</p>
+<p>Riley decided to get to bull by the horns and checked in on one of those speed-dating sites that promise to find your perfect match.</p>
+<p>But of course, Silicon Valley is a ridiculous caricature of the impossible, and Riley’s first match decided to start blabbing about machine learning and dimensionality reduction algorithms. And if this wasn’t crazy enough, Riley didn’t think this person knew what he was talking about.</p>
+<p>Can you guess all the possible statements about dimensionality reduction that would make Riley’s match incorrect?</p>
+<ol type="1">
+<li><p>Supervised learning algorithms can be used as dimensionality reduction techniques.</p></li>
+<li><p>Every dimensionality reduction technique is a clustering technique, but every clustering technique is not a dimensionality reduction algorithm.</p></li>
+<li><p>Dimensionality reduction algorithms are primarily considered unsupervised learning techniques.</p></li>
+<li><p>Nowadays, the most successful dimensionality reduction techniques are deep learning algorithms.</p></li>
+</ol>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>In machie learning parlence, the number of features in a dataset is called its dimensionality. It turn out some features are correlated (similar) and therefore redundant. We remove feautures that are correlated in our dataset because they will not add any predictive ability to our model. Solution to this is during the data exploration stage, we find correlated feautures and remove them. This process is called “Dimentionality Reduction”</p>
+<p>Again, the more feature we have the more difficult it will be for machine learning model to make a correct prediction. This is called the curse of dimensionality reduction. Dataset with hundred or thousands feauturs can be said to have high-dimensionality.</p>
+<p>Often, large inputs may leads to have higher parameters in our model, which in turn result in more flexible model that can result in overfitting data (degrees of freedom). Consequently, the model may fail to generalzie on new data. In general, few dimension, generalize better.</p>
+<p>Fewer input dimensions often mean correspondingly fewer parameters or a simpler structure in the machine learning model, referred to as degrees of freedom. A model with too many degrees of freedom is likely to overfit the training dataset and therefore may not perform well on new data.</p>
+<p>Some of the benefit of dimensionality reduction are: reduction of storage and computation time.</p>
+<blockquote class="blockquote">
+<p>“When dealing with high dimensional data, it is often useful to reduce the dimensionality by projecting the data to a lower dimensional subspace which captures the “essence” of the data. This is called dimensionality reduction”</p>
+</blockquote>
+<p>[]</p>
+<p>Dimensionality Reduction helps in data compression, and hence reduced storage space. It reduces computation time. It also helps remove redundant features, if any. Dimensionality Reduction helps in data compressing and reducing the storage space required. It fastens the time required for performing same computations</p>
+<p>Dimensionality reduction is the task of reducing the number of features in a dataset. In machine learning tasks like regression or classification, there are often too many variables to work with. These variables are also called features.</p>
+<p>The number of input variables or features for a dataset is referred to as its dimensionality.</p>
+<p>Dimensionality reduction refers to techniques that reduce the number of input variables in a dataset.</p>
+<p>More input features often make a predictive modeling task more challenging to model, more generally referred to as the curse of dimensionality.</p>
+<p>High-dimensionality statistics and dimensionality reduction techniques are often used for data visualization. Nevertheless these techniques can be used in applied machine learning to simplify a classification or regression dataset in order to better fit a predictive model.</p>
+<p>In this post, you will discover a gentle introduction to dimensionality reduction for machine learning</p>
+<style>
+body {
+text-align: justify}
+</style>
+
+
+</section>
+
+ ]]></description>
+  <category>DailyML</category>
+  <category>Bnomial</category>
+  <guid>https://shmuhammadblog.github.io/blog/dailyML0001/whyblog.html</guid>
+  <pubDate>Mon, 16 May 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io//blog/dailyML0001/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Obtaining data using command line</title>
+  <link>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="use-of-curl-tar-and-wget" class="level1">
+<h1>Use of Curl, tar and wget</h1>
+<blockquote class="blockquote">
+<p>Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. In this chapter, I discuss several tools that help tackle this from the command line, including: curl33, in2csv34, sql2csv35, and tar36.</p>
+</blockquote>
+<center>
+<p><img src="https://shmuhammadblog.github.io/blog/obtaining data/images/book_pic.png" class="img-fluid"></p>
+</center>
+<section id="copying-local-files-to-the-docker-container" class="level3">
+<h3 class="anchored" data-anchor-id="copying-local-files-to-the-docker-container">Copying Local Files to the Docker Container</h3>
+<ul>
+<li>Before we copy file to the container, Let us create a directory in the container.</li>
+<li>find the container ID we want copy file to</li>
+<li>copy the file to the container using cp command</li>
+<li>check the file in the container</li>
+</ul>
+<div class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;">!</span>docker ps</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>CONTAINER ID   IMAGE                         COMMAND          CREATED       STATUS       PORTS     NAMES
+f49bee0d702d   datasciencetoolbox/dsatcl2e   "/usr/bin/zsh"   3 hours ago   Up 3 hours             heuristic_proskuriakova</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>data science</category>
+  <category>unix</category>
+  <guid>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</guid>
+  <pubDate>Sat, 30 Apr 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io//blog/obtaining data/terminal.png" medium="image" type="image/png" height="82" width="144"/>
+</item>
 </channel>
 </rss>
