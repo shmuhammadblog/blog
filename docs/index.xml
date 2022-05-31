@@ -10,7 +10,49 @@
 <atom:link href="https://shmuhammadblog.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Shamsuddeen Muhammad Blog</description>
 <generator>quarto-0.9.410</generator>
-<lastBuildDate>Tue, 17 May 2022 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 31 May 2022 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Obtaining data using command line</title>
+  <link>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="use-of-curl-tar-and-wget" class="level1">
+<h1>Use of Curl, tar and wget</h1>
+<blockquote class="blockquote">
+<p>Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. In this chapter, I discuss several tools that help tackle this from the command line, including: curl33, in2csv34, sql2csv35, and tar36.</p>
+</blockquote>
+<center>
+<p><img src="https://shmuhammadblog.github.io/blog/obtaining data/images/book_pic.png" class="img-fluid"></p>
+</center>
+<section id="copying-local-files-to-the-docker-container" class="level3">
+<h3 class="anchored" data-anchor-id="copying-local-files-to-the-docker-container">Copying Local Files to the Docker Container</h3>
+<ul>
+<li>Before we copy file to the container, Let us create a directory in the container.</li>
+<li>find the container ID we want copy file to</li>
+<li>copy the file to the container using cp command</li>
+<li>check the file in the container</li>
+</ul>
+<div class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;">!</span>docker ps</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>CONTAINER ID   IMAGE                         COMMAND          CREATED       STATUS       PORTS     NAMES
+f49bee0d702d   datasciencetoolbox/dsatcl2e   "/usr/bin/zsh"   3 hours ago   Up 3 hours             heuristic_proskuriakova</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>data science</category>
+  <category>unix</category>
+  <guid>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</guid>
+  <pubDate>Tue, 31 May 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io//blog/obtaining data/terminal.png" medium="image" type="image/png" height="82" width="144"/>
+</item>
 <item>
   <title>Daily Coding 01</title>
   <link>https://shmuhammadblog.github.io/blog/coding_0001/index copy.html</link>
@@ -170,48 +212,6 @@ text-align: justify}
   <guid>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</guid>
   <pubDate>Mon, 16 May 2022 23:00:00 GMT</pubDate>
   <media:content url="https://shmuhammadblog.github.io//blog/whyblog/featured.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Obtaining data using command line</title>
-  <link>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="use-of-curl-tar-and-wget" class="level1">
-<h1>Use of Curl, tar and wget</h1>
-<blockquote class="blockquote">
-<p>Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. In this chapter, I discuss several tools that help tackle this from the command line, including: curl33, in2csv34, sql2csv35, and tar36.</p>
-</blockquote>
-<center>
-<p><img src="https://shmuhammadblog.github.io/blog/obtaining data/images/book_pic.png" class="img-fluid"></p>
-</center>
-<section id="copying-local-files-to-the-docker-container" class="level3">
-<h3 class="anchored" data-anchor-id="copying-local-files-to-the-docker-container">Copying Local Files to the Docker Container</h3>
-<ul>
-<li>Before we copy file to the container, Let us create a directory in the container.</li>
-<li>find the container ID we want copy file to</li>
-<li>copy the file to the container using cp command</li>
-<li>check the file in the container</li>
-</ul>
-<div class="cell" data-vscode="{&quot;languageId&quot;:&quot;shellscript&quot;}" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="op" style="color: #5E5E5E;">!</span>docker ps</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>CONTAINER ID   IMAGE                         COMMAND          CREATED       STATUS       PORTS     NAMES
-f49bee0d702d   datasciencetoolbox/dsatcl2e   "/usr/bin/zsh"   3 hours ago   Up 3 hours             heuristic_proskuriakova</code></pre>
-</div>
-</div>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>data science</category>
-  <category>unix</category>
-  <guid>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</guid>
-  <pubDate>Sat, 30 Apr 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://shmuhammadblog.github.io//blog/obtaining data/terminal.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 </channel>
 </rss>
