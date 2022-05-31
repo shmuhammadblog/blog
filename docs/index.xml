@@ -18,10 +18,8 @@
 
 
 
-<section id="use-of-curl-tar-and-wget" class="level1">
-<h1>Use of Curl, tar and wget</h1>
 <blockquote class="blockquote">
-<p>Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. In this chapter, I discuss several tools that help tackle this from the command line, including: curl33, in2csv34, sql2csv35, and tar36.</p>
+<p>Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. Tools such as curl, tar, wget, csvtool and others can be used to download data. —Data Science at command Line</p>
 </blockquote>
 <p><img src="https://shmuhammadblog.github.io/blog/obtaining data/terminal2.png" class="img-fluid"></p>
 <section id="downloading-from-the-internet-using-curl" class="level2">
@@ -64,7 +62,6 @@
 <h2 class="anchored" data-anchor-id="tar-and-unzip">Tar and Unzip</h2>
 
 
-</section>
 </section>
 
  ]]></description>
