@@ -121,7 +121,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <meta name="twitter:title" content="Shamsuddeen Hassan Muhammad’s Blog - Using command Line to Obtain Data">
 <meta name="twitter:description" content="This blog demonstrates how to use the command line to obtain data from the web using: curl, xxx,xxxxxx,,xxxxx,">
-<meta name="twitter:image" content="https://shmuhammadblog.github.io/blog/obtaining data/terminal.png">
+<meta name="twitter:image" content="https://shmuhammadblog.github.io/blog/docker/terminal.png">
 <meta name="twitter:creator" content="Shamsuddeen Hassan Muhammad">
 <meta name="twitter:image-height" content="372">
 <meta name="twitter:image-width" content="656">
@@ -247,45 +247,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 f49bee0d702d   datasciencetoolbox/dsatcl2e   "/usr/bin/zsh"   3 hours ago   Up 3 hours             heuristic_proskuriakova</code></pre>
 </div>
 </div>
-</section>
-<section id="downloading-from-the-internet" class="level2">
-<h2 class="anchored" data-anchor-id="downloading-from-the-internet">Downloading from the Internet</h2>
-<p><strong>Curl</strong> and <strong>wget</strong> are command line tools that allows you to download files from the Internet. curl and wget are installed by default on most Linux systems. if you do not have either tool installed, you can use the commands below to install curl and wget on Ubuntu.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>   <span class="fu">sudo</span> apt install curl</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>   <span class="fu">sudo</span> apt install wget</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>If you are using a Mac, you can install curl and wget using the following commands:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">brew</span> install curl</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">brew</span> install wget</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<section id="how-to-use-curl" class="level4">
-<h4 class="anchored" data-anchor-id="how-to-use-curl">How to Use Curl</h4>
-<p>The curl syntax is : curl [options] [URL…]. In its simplest form, curl is used to download a file from the Internet without any options.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">curl</span> example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The above example, curl displays the contents of the file to the standard output. The command above will download and print the source code of the example.com homepage in your terminal window.</p>
-</section>
-<section id="save-the-output-to-a-file" class="level4">
-<h4 class="anchored" data-anchor-id="save-the-output-to-a-file">Save the Output to a File</h4>
-<p>We can use the -o option to save the output to a file.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">curl</span> <span class="at">-o</span> example.html example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The above example will save the output to a file named example.html instead of printing it to the terminal. You can also redirect the output to a file using the &gt; operator.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">curl</span> <span class="at">-o</span> example.com <span class="op">&gt;</span> example.html</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>We can also use O (uppercase) to save to original file name</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>   <span class="ex">curl</span> <span class="at">-O</span> example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>The above example will save the output to a file named example.com instead of printing it to the terminal.</p>
-<p>Sometimes, it’s a good idea to set the verbose mode on. This may provide useful information about the progress of the download.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-v</span> example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>curl outputs a progress meter that shows the download rate and the expected time of completion. You can also use the -s option to hide the progress meter and the progress.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-s</span> example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="following-redirects" class="level3">
-<h3 class="anchored" data-anchor-id="following-redirects">Following Redirects</h3>
-<p>When accessing shortened URL with curl, such as http://bit.ly/, we need to set the -L option to automatically follow redirects</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">curl</span> <span class="at">-L</span> http://bit.ly/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="tar-and-unzip" class="level2">
-<h2 class="anchored" data-anchor-id="tar-and-unzip">Tar and Unzip</h2>
 
 
 </section>
