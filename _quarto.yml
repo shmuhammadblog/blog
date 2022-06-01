@@ -35,7 +35,7 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/shmuhammad/
       - icon: rss
-        href: index.xmls
+        href: index.xml
   page-footer:
     left: 
       - href: license.qmd
