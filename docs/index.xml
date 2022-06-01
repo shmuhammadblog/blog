@@ -54,7 +54,7 @@
 </section>
 <section id="following-redirects" class="level4">
 <h4 class="anchored" data-anchor-id="following-redirects">Following Redirects</h4>
-<p>When accessing shortened URL with curl, such as http://bit.ly/, we need to set the -L option to automatically follow redirects</p>
+<p>When accessing shortened URL with curl, such as: http://bit.ly/, we need to set the -L option to automatically follow redirects</p>
 <div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1">    <span class="ex" style="color: null;">curl</span> <span class="at" style="color: #657422;">-L</span> http://bit.ly/</span></code></pre></div>
 </section>
 </section>
