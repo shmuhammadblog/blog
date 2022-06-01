@@ -171,6 +171,39 @@
   <media:content url="https://shmuhammadblog.github.io/blog/obtaining data/terminal.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
+  <title>Moving files to and from Docker containers</title>
+  <link>https://shmuhammadblog.github.io/blog/movingfilestodocker/movinfiles.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="how-to-copy-files-to-and-from-docker-container-to-host" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-copy-files-to-and-from-docker-container-to-host">How to copy files to and from Docker Container to Host</h2>
+<p>You can use the <code>docker cp</code> command to copy files from the host to the container or vice versa.</p>
+<section id="copy-files-from-the-host-to-the-container" class="level3">
+<h3 class="anchored" data-anchor-id="copy-files-from-the-host-to-the-container">Copy files from the host to the container</h3>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;">docker</span> cp /path/to/file/in/host/   container_id:/path/to/file/in/container</span></code></pre></div>
+</section>
+<section id="copy-files-from-the-container-to-the-host" class="level3">
+<h3 class="anchored" data-anchor-id="copy-files-from-the-container-to-the-host">Copy files from the container to the host</h3>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;">docker</span> cp container_id:/path/to/file/in/container/   /path/to/file/in/host/</span></code></pre></div>
+</section>
+<section id="copy-file-from-a-container-to-another-container" class="level3">
+<h3 class="anchored" data-anchor-id="copy-file-from-a-container-to-another-container">copy file from a container to another container</h3>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="ex" style="color: null;">docker</span> cp container_id:/path/to/file/in/container/   container_id:/path/to/file/in/container/</span></code></pre></div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>data science</category>
+  <category>unix</category>
+  <guid>https://shmuhammadblog.github.io/blog/movingfilestodocker/movinfiles.html</guid>
+  <pubDate>Tue, 31 May 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://shmuhammadblog.github.io/blog/movingfilestodocker/docker.png" medium="image" type="image/png" height="124" width="144"/>
+</item>
+<item>
   <title>Why Should You Start a Blog?</title>
   <link>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</link>
   <description><![CDATA[ 
