@@ -112,11 +112,11 @@
     "text": "Share my experience and opportunites:\nI naturally love to share my experience and other opportunities with people I know. Therefore, a blog post will serve as a way to share important resources that I come across and find useful. This will benefit a wider audience."
   },
   {
-    "objectID": "blog/movingfilestodocker/obtaininda.html",
-    "href": "blog/movingfilestodocker/obtaininda.html",
-    "title": "Moving files to and from Docker containers",
+    "objectID": "blog/movingfilestodocker/movinfiles.html",
+    "href": "blog/movingfilestodocker/movinfiles.html",
+    "title": "Moving files to and from a docker containers",
     "section": "",
-    "text": "You can use the docker cp command to copy files from the host to the container or vice versa.\n\n\ndocker cp /path/to/file/in/host/   container_id:/path/to/file/in/container\n\n\n\n\ndocker cp container_id:/path/to/file/in/container/   /path/to/file/in/host/\n\n\n\n\ndocker cp container_id:/path/to/file/in/container/   container_id:/path/to/file/in/container/"
+    "text": "You can use the docker cp command to copy files from the host to the container or vice versa.\n\n\ndocker cp /path/to/file/in/host/   container_id:/path/to/file/in/container\n\n\n\ndocker cp container_id:/path/to/file/in/container/   /path/to/file/in/host/\n\n\n\ndocker cp container_id:/path/to/file/in/container/   container_id:/path/to/file/in/container/"
   },
   {
     "objectID": "about.html",
@@ -131,12 +131,5 @@
     "title": "License",
     "section": "",
     "text": "This is my personal website. Content on this site is provided under a Creative Commons (CC-BY) 4.0 license. You may reuse this content as long as you indicate my authorship and provide a link back to the original material. Source code of the site is provided under the MIT license and may be reused without restriction."
-  },
-  {
-    "objectID": "blog/movingfilestodocker/movinfiles.html",
-    "href": "blog/movingfilestodocker/movinfiles.html",
-    "title": "Moving files to and from a docker containers",
-    "section": "",
-    "text": "You can use the docker cp command to copy files from the host to the container or vice versa.\n\n\ndocker cp /path/to/file/in/host/   container_id:/path/to/file/in/container\n\n\n\ndocker cp container_id:/path/to/file/in/container/   /path/to/file/in/host/\n\n\n\ndocker cp container_id:/path/to/file/in/container/   container_id:/path/to/file/in/container/"
   }
 ]

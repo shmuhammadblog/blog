@@ -2,34 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://shmuhammadblog.github.io/til.html</loc>
-    <lastmod>2022-06-01T16:04:12.872Z</lastmod>
+    <lastmod>2022-06-01T20:47:48.787Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/index.html</loc>
-    <lastmod>2022-06-01T19:31:51.966Z</lastmod>
+    <lastmod>2022-06-01T20:47:50.293Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</loc>
-    <lastmod>2022-06-01T19:31:09.232Z</lastmod>
+    <lastmod>2022-06-01T20:47:51.345Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</loc>
-    <lastmod>2022-06-01T19:31:50.679Z</lastmod>
-  </url>
-  <url>
-    <loc>https://shmuhammadblog.github.io/blog/movingfilestodocker/obtaininda.html</loc>
-    <lastmod>2022-06-01T16:09:16.870Z</lastmod>
-  </url>
-  <url>
-    <loc>https://shmuhammadblog.github.io/about.html</loc>
-    <lastmod>2022-06-01T16:04:18.698Z</lastmod>
-  </url>
-  <url>
-    <loc>https://shmuhammadblog.github.io/license.html</loc>
-    <lastmod>2022-06-01T16:04:19.225Z</lastmod>
+    <lastmod>2022-06-01T20:47:52.302Z</lastmod>
   </url>
   <url>
     <loc>https://shmuhammadblog.github.io/blog/movingfilestodocker/movinfiles.html</loc>
-    <lastmod>2022-06-01T19:30:37.505Z</lastmod>
+    <lastmod>2022-06-01T20:47:53.176Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/about.html</loc>
+    <lastmod>2022-06-01T20:47:56.764Z</lastmod>
+  </url>
+  <url>
+    <loc>https://shmuhammadblog.github.io/license.html</loc>
+    <lastmod>2022-06-01T20:47:57.871Z</lastmod>
   </url>
 </urlset>
