@@ -6,6 +6,7 @@ project:
     - "_redirects.txt"
 
 website:
+  google-analytics: "UA-124900795-1"
   title: "Shamsuddeen Hassan Muhammad's Blog"
   site-url: https://shmuhammadblog.github.io
   description: "Shamsuddeen Muhammad Blog"

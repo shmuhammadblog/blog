@@ -11,7 +11,63 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "data science\n\n\nunix\n\n\n\n\nThis blog explain how to use command line tools to obtain data from the internet.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndailycoding\n\n\npython\n\n\n\n\nLeetCoding Challenge problem : Two Sum\n\n\n\n\n\n\nMay 18, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 17, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Books\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/obtaining data/obtaininda.html",
+    "href": "blog/obtaining data/obtaininda.html",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "",
+    "text": "Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. Tools such as curl, tar, wget, csvtool and others can be used to download data. —Data Science at command Line"
+  },
+  {
+    "objectID": "blog/obtaining data/obtaininda.html#downloading-from-the-internet-using-curl",
+    "href": "blog/obtaining data/obtaininda.html#downloading-from-the-internet-using-curl",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "Downloading from the Internet using Curl",
+    "text": "Downloading from the Internet using Curl\nCurl and wget are command line tools that allows you to download files from the Internet. curl and wget are installed by default on most Linux systems. if you do not have either tool installed, you can use the commands below to install curl and wget on Ubuntu.\n   sudo apt install curl\n   sudo apt install wget\nIf you are using a Mac, you can install curl and wget using the following commands:\n    brew install curl\n    brew install wget\n\nHow to Use Curl\nThe curl syntax is :\ncurl [options] [URL...] \nIn its simplest form, curl is used to download a file from the Internet without any options.\n    curl example.com\nThe above example, curl displays the contents of the file to the standard output. The command above will download and print the source code of the example.com homepage in your terminal window.\n\n\nSave the Output to a File\nWe can use the -o option to save the output to a file.\n    curl -o example.html example.com\nOR\n    curl example.com -o example.html\nThe above example will save the output to a file named example.html instead of printing it to the terminal. You can also redirect the output to a file using the > operator.\n    curl -o example.com > example.html\nWe can also use O (uppercase) to save to original file name\n\n   curl -O example.com\nThe above example will save the output to a file named example.com instead of printing it to the terminal.\nSometimes, it’s a good idea to set the verbose mode on. This may provide useful information about the progress of the download.\n\ncurl -v example.com\ncurl outputs a progress meter that shows the download rate and the expected time of completion. You can also use the -s option to hide the progress meter and the progress.\ncurl -s example.com\n\n\nFollowing Redirects\nWhen accessing shortened URL with curl, such as: http://bit.ly/, we need to set the -L option to automatically follow redirects\n    curl -L http://bit.ly/\n\n\nUsing Curl to Download from FTP server\nCurl has over 20 built-in FTP commands. You can use curl to download files from FTP servers as follows:\n    curl -s \"ftp://ftp.gnu.org/welcome.msg\" | trim\n\n\nHow to use Wget Command\nThe wget command is similar to curl, but it does not print the output to the terminal. Instead, it saves the output to a file. Its syntax is shown below:\n    wget [options] [URL...]\nYou can download a file from the Internet using wget and saved to a file.\n    wget -O example.html example.com\n    wget example.com\nYou can also save the output to a file using the -O option.\n    wget -O example.html example.com\nYou can save in a specify folder using the -P option.\n    wget -P /home/example.com example.com"
+  },
+  {
+    "objectID": "blog/obtaining data/obtaininda.html#difference-between-wget-and-curl",
+    "href": "blog/obtaining data/obtaininda.html#difference-between-wget-and-curl",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "Difference between Wget and Curl",
+    "text": "Difference between Wget and Curl\nWget is similar to curl, but curl is more powerful. wget is a tool to download files from servers while curl is a tool that let’s you exchange requests/responses with a server.\nwget’s major advantage is its ability to download recursively. Wget is command line only. There’s no library.\nCurl is powered by libcurl - a cross-platform library with a stable API that can be used by each and everyone.\nCurl is generally preferred since it supports more features than wget. For comparison here is the list of features of available with different tools:"
+  },
+  {
+    "objectID": "blog/obtaining data/obtaininda.html#other-cool-stuff-you-can-do-with-curl",
+    "href": "blog/obtaining data/obtaininda.html#other-cool-stuff-you-can-do-with-curl",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "Other Cool stuff you can do with curl",
+    "text": "Other Cool stuff you can do with curl\nwttr.in: to checker whather in your term\nwttr.in/SanFrancisco # to check weather in San Francisco\nrate.sx: Crypto prices without leaving the terminal by running curl rate.sx\n\ncurl rate.sx\ndict.org: To look up definitions for a word, run curl ‘dict.org/d:word’\ncurl 'dict.org/d:word'"
+  },
+  {
+    "objectID": "blog/obtaining data/obtaininda.html#compressing-and-decompressing-files",
+    "href": "blog/obtaining data/obtaininda.html#compressing-and-decompressing-files",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "Compressing and Decompressing Files",
+    "text": "Compressing and Decompressing Files\nLarge files can be compressed and decompressed.\n\nCompressing Files using tar\n    tar -cvf example.tar ~/desktop/example/\nThe options used in the above command to create a tar file are:\n\nc – Creates a new .tar archive file.\nv – Verbosely show the .tar file progress.\nf – File name type of the archive file.\n\n\n\nCompressing Files using gzip\ntar cvzf example.tar.gz /desktop/examples/\n\nor \n\ntar cvzf example.tgz /desktop/examples/"
+  },
+  {
+    "objectID": "blog/obtaining data/obtaininda.html#list-content-of-an-archive-file",
+    "href": "blog/obtaining data/obtaininda.html#list-content-of-an-archive-file",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "List Content of an Archive File",
+    "text": "List Content of an Archive File\nTo list the contents of an archive file, you can use the following command (with t option):\n\ntar -tvf example.tar"
+  },
+  {
+    "objectID": "blog/obtaining data/obtaininda.html#decompressing-archivedd-file",
+    "href": "blog/obtaining data/obtaininda.html#decompressing-archivedd-file",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "Decompressing Archivedd File",
+    "text": "Decompressing Archivedd File\nTo uncompress an archive file, you can use the following command (with x option):\n\ntar -xvf example.tar \nIf you want to untar in a different directory then use option as -C (specified directory).\n    tar -xvf example.tar -C /desktop/example/\nFinally, you can use unpack command also to decompress the file.\nunpack example.tar"
+  },
+  {
+    "objectID": "blog/obtaining data/obtaininda.html#csvkit-converting-and-working-with-csv-at-command-line",
+    "href": "blog/obtaining data/obtaininda.html#csvkit-converting-and-working-with-csv-at-command-line",
+    "title": "Shamsuddeen Hassan Muhammad's Blog",
+    "section": "Csvkit : converting and working with CSV at command Line",
+    "text": "Csvkit : converting and working with CSV at command Line\ncsvkit is a suite of command-line tools for converting to and working with CSV, the king of tabular file formats. working with csvkit makes it easy to convert between different formats, and to work with the data in those formats.\nYou can install csvkit using the following command:\n    pip install csvkit\nWe can print the contents of the file using the following command:\nbat -A data.csv\nThe -A option show all non-printable characters such as space, tab, newline, etc.\nWe can also use another command called csvlook to print the contents of the file nicely.\ncsvlook data.csv\nBelow are some of the commands that you can use with csvkit:\n\nConvert Excel to CSV:\n\nin2csv data.xls > data.csv  # Excel to csv\n\nin2csv data.json > data.csv # json to csv\n\ncsvstat data.csv # give the statistics of the csv file\n\ncsvjson data.csv > data.json # convert csv to json\n\ncsvcut  -n data.csv # print column names\n\ncsvcut -c column_a,column_c data.csv > new.csv # select subset of columns"
   },
   {
     "objectID": "blog/whyblog/whyblog.html",
@@ -56,20 +112,6 @@
     "text": "Share my experience and opportunites:\nI naturally love to share my experience and other opportunities with people I know. Therefore, a blog post will serve as a way to share important resources that I come across and find useful. This will benefit a wider audience."
   },
   {
-    "objectID": "blog/coding_0001/index copy.html",
-    "href": "blog/coding_0001/index copy.html",
-    "title": "Daily Coding 01",
-    "section": "",
-    "text": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order."
-  },
-  {
-    "objectID": "blog/coding_0001/index copy.html#solution",
-    "href": "blog/coding_0001/index copy.html#solution",
-    "title": "Daily Coding 01",
-    "section": "Solution",
-    "text": "Solution\n\nclass Solution(object):\n    \"\"\"_summary_\n    Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.\n    Example:\n    Given nums = [2, 7, 11, 15], target = 9,\n    Because nums[0] + nums[1] = 2 + 7 = 9,\n    \n    Returns:\n        _type_: return [0, 1]\n    \"\"\"      \n    def twoSum(self, nums, target):\n        mapping = {}\n\n        for index, val in enumerate(nums):\n            diff = target - val\n            if diff in mapping:\n                return [index, mapping[diff]]\n            else:\n                mapping[val] = index\n\nRunning an example\n\nanswer = Solution() # create an instance of the class\n\nnums = [2, 7, 11, 15] # input\ntarget = 9            # input\n\nanswer.twoSum(nums, target) # call the method\n\n[1, 0]"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -82,215 +124,5 @@
     "title": "License",
     "section": "",
     "text": "This is my personal website. Content on this site is provided under a Creative Commons (CC-BY) 4.0 license. You may reuse this content as long as you indicate my authorship and provide a link back to the original material. Source code of the site is provided under the MIT license and may be reused without restriction."
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog/whyblog.html",
-    "href": "blog/dailyML0001/whyblog/whyblog.html",
-    "title": "Why Should You Start a Blog?",
-    "section": "",
-    "text": "My mentor, Sebastian Ruder advises PhD students to write blogs and has this to say: “Having a blog is the single thing that has led to the most positive interactions throughout my PhD.”1\nI was inspired, but I’ve been holding off writing blog posts consistently. I started in 2020 and stopped after two blog posts. Recently, I read a blog post by the co-founder of fast.ai, Rachel Thomas, “Why you should write blogpost”2 and watched an RStudio talk by David Robinson, “The unreasonable effectiveness of public work.”3 Both Rachel and David convinced me about the benefits of writing a blog post. Therefore, I braced up to start blogging consistently at least once fortnightly. As a Ph.D. student, writing habits will strongly build my writing and creativity muscles to the max.\nThere are many reasons one writes a blog. For me, below are only five reasons I think a blog will help me along the way of building my career."
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog/whyblog.html#deliberate-practice",
-    "href": "blog/dailyML0001/whyblog/whyblog.html#deliberate-practice",
-    "title": "Why Should You Start a Blog?",
-    "section": "Deliberate practice",
-    "text": "Deliberate practice\nDeliberate practice is a systematic, focused, consistent, goal-oriented training that builds expertise or improves performance.45 Building expertise in any field is not a marathon; it is a series of Sprints. Evidence has shown that experts or geniuses are always made, not born6 7. For example, bodybuilders, musicians, and footballers consistently practice to achieve mastery. No one becomes an expert from day one. The same is also true for writing and any other skills. Consistent writing, even small content but engaging and informative, will improve your writing skills. As we fondly say, “practice makes perfect.” Consistent practice allows one to do a task while thinking about other things. For example, a professional orator can deliver an excellent speech without reading from any single note. Stopping to think about the task can sometimes result in a flawless performance. People refer to this performance as being “in the zone. Aristotle said:”We are what we repeatedly do. Excellence, then, is not an act, but a habit.” \nDeliberate practice does not make what we learn easier; it changes the brain (Myelination). This concept is notably expressed as “cells that fire together, wire together.” Sometimes, we reach an “aha!” moment when learning difficult stuff - that is when someone has been struggling to understand a concept, and it suddenly becomes apparent - the clarity does not come out of nowhere.\n\nRather, it results from a steady accumulation of information. That’s because adding additional information opens up memories associated with the task. Once those memory neurons are active, they can form new connections. They also can form stronger connections within an existing network. Over time, your level of understanding increases until you suddenly “get” it 8.\n\nTherefore, this blog will serve as a way for me to do deliberate practices of many skills (writing, machine learning, visualization, python, r and, many more)"
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog/whyblog.html#repository-for-my-future-self",
-    "href": "blog/dailyML0001/whyblog/whyblog.html#repository-for-my-future-self",
-    "title": "Why Should You Start a Blog?",
-    "section": "Repository for my future self",
-    "text": "Repository for my future self\nI am absent-minded. I write code and forget how I did it or google the same thing many times So, anything that I often google or write a complex program, I will write a blog post on it. That way, I will refer to it. Hadley Wickham inspired me in his book R for Data Science; he said, if you write the same code three times, then, you write a function for that code. Hadley’s idea was adapted from code refactoring rule of thumb (Rule of three), which states that “two instances of similar code don’t require refactoring, but when similar code is used three times, it should be extracted into a new procedure.”9"
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog/whyblog.html#build-public-profile-and-network",
-    "href": "blog/dailyML0001/whyblog/whyblog.html#build-public-profile-and-network",
-    "title": "Why Should You Start a Blog?",
-    "section": "Build public profile and network",
-    "text": "Build public profile and network\nPutting your work or your skills to the public is a way to put your best foot forwards. Public work can be anything like Tweets, Blog post, GitHub Repo, or Book. Like-minded people with related interests may find your blog post, network with you, and give you feedback. Many opportunities may come in your future career from the network you build. An example of this was when David Robinson answered a question on Stack Overflow10, Stack Overflow engineer saw the brilliant answer and hired him (his first job at Stack Overflow). So, a blog allows one to showcase his skills, and other people can benefit from it.\n\n\n\n\n\nTweet transformed to a blog and book."
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog/whyblog.html#learning-by-teaching-protégé-effect",
-    "href": "blog/dailyML0001/whyblog/whyblog.html#learning-by-teaching-protégé-effect",
-    "title": "Why Should You Start a Blog?",
-    "section": "Learning by teaching (protégé effect)",
-    "text": "Learning by teaching (protégé effect)\nRobert Heinlein said, when one teaches, two learn. It means whenever you teach or explain a concept to someone, you will learn something from it or get a better insight and ultimately reach the “aha” moment. Therefore, writing a good tutorial about a brain-bending concept without dumbing it down is a great way to learn and increase visibility. As Einstein says, “If you can’t explain it simply, you don’t understand it well enough.” A study11 found that when students teach the lesson’s content (active learning), they develop a more in-depth and longer-lasting understanding of the material than students who do not teach it( passive learning). Therefore, this blog will allow me to write my research and summary of papers and man more. The approach of learning by teaching was widely known as Feynman learning technique12"
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog/whyblog.html#share-my-experience-and-opportunites",
-    "href": "blog/dailyML0001/whyblog/whyblog.html#share-my-experience-and-opportunites",
-    "title": "Why Should You Start a Blog?",
-    "section": "Share my experience and opportunites:",
-    "text": "Share my experience and opportunites:\nI naturally love to share my experience and other opportunities with people I know. Therefore, a blog post will serve as a way to share important resources that I come across and find useful. This will benefit a wider audience."
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog.html",
-    "href": "blog/dailyML0001/whyblog.html",
-    "title": "Dimentionality Reduction in Machine Learning?",
-    "section": "",
-    "text": "If you spend all day sitting at a desk, you can’t expect to have many opportunities to meet interesting people.\nRiley decided to get to bull by the horns and checked in on one of those speed-dating sites that promise to find your perfect match.\nBut of course, Silicon Valley is a ridiculous caricature of the impossible, and Riley’s first match decided to start blabbing about machine learning and dimensionality reduction algorithms. And if this wasn’t crazy enough, Riley didn’t think this person knew what he was talking about.\nCan you guess all the possible statements about dimensionality reduction that would make Riley’s match incorrect?\n\nSupervised learning algorithms can be used as dimensionality reduction techniques.\nEvery dimensionality reduction technique is a clustering technique, but every clustering technique is not a dimensionality reduction algorithm.\nDimensionality reduction algorithms are primarily considered unsupervised learning techniques.\nNowadays, the most successful dimensionality reduction techniques are deep learning algorithms."
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog.html#solu",
-    "href": "blog/dailyML0001/whyblog.html#solu",
-    "title": "Dimentionality Reduction in Machine Learning?",
-    "section": "Solu",
-    "text": "Solu"
-  },
-  {
-    "objectID": "blog/dailyML0001/whyblog.html#solution",
-    "href": "blog/dailyML0001/whyblog.html#solution",
-    "title": "Dimentionality Reduction in Machine Learning?",
-    "section": "Solution",
-    "text": "Solution\nIn machie learning parlence, the number of features in a dataset is called its dimensionality. It turn out some features are correlated (similar) and therefore redundant. We remove feautures that are correlated in our dataset because they will not add any predictive ability to our model. Solution to this is during the data exploration stage, we find correlated feautures and remove them. This process is called “Dimentionality Reduction”\nAgain, the more feature we have the more difficult it will be for machine learning model to make a correct prediction. This is called the curse of dimensionality reduction. Dataset with hundred or thousands feauturs can be said to have high-dimensionality.\nOften, large inputs may leads to have higher parameters in our model, which in turn result in more flexible model that can result in overfitting data (degrees of freedom). Consequently, the model may fail to generalzie on new data. In general, few dimension, generalize better.\nFewer input dimensions often mean correspondingly fewer parameters or a simpler structure in the machine learning model, referred to as degrees of freedom. A model with too many degrees of freedom is likely to overfit the training dataset and therefore may not perform well on new data.\nSome of the benefit of dimensionality reduction are: reduction of storage and computation time.\n\n“When dealing with high dimensional data, it is often useful to reduce the dimensionality by projecting the data to a lower dimensional subspace which captures the “essence” of the data. This is called dimensionality reduction”\n\n[]\nDimensionality Reduction helps in data compression, and hence reduced storage space. It reduces computation time. It also helps remove redundant features, if any. Dimensionality Reduction helps in data compressing and reducing the storage space required. It fastens the time required for performing same computations\nDimensionality reduction is the task of reducing the number of features in a dataset. In machine learning tasks like regression or classification, there are often too many variables to work with. These variables are also called features.\nThe number of input variables or features for a dataset is referred to as its dimensionality.\nDimensionality reduction refers to techniques that reduce the number of input variables in a dataset.\nMore input features often make a predictive modeling task more challenging to model, more generally referred to as the curse of dimensionality.\nHigh-dimensionality statistics and dimensionality reduction techniques are often used for data visualization. Nevertheless these techniques can be used in applied machine learning to simplify a classification or regression dataset in order to better fit a predictive model.\nIn this post, you will discover a gentle introduction to dimensionality reduction for machine learning"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html",
-    "href": "blog/obtaining data/obtaininda.html",
-    "title": "Using command Line to Obtain Data",
-    "section": "",
-    "text": "Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. Tools such as curl, tar, wget, csvtool and others can be used to download data. —Data Science at command Line"
-  },
-  {
-    "objectID": "blog/docker/obtaininda.html",
-    "href": "blog/docker/obtaininda.html",
-    "title": "Using command Line to Obtain Data",
-    "section": "",
-    "text": "Data can be obtained in several ways—for example by downloading it from a server, querying a database, or connecting to a Web API. Sometimes, the data comes in a compressed form or in a binary format such as a Microsoft Excel Spreadsheet. In this chapter, I discuss several tools that help tackle this from the command line, including: curl33, in2csv34, sql2csv35, and tar36.\n\n\n\n\n\nBefore we copy file to the container, Let us create a directory in the container.\nfind the container ID we want copy file to\ncopy the file to the container using cp command\ncheck the file in the container\n\n\n!docker ps\n\nCONTAINER ID   IMAGE                         COMMAND          CREATED       STATUS       PORTS     NAMES\nf49bee0d702d   datasciencetoolbox/dsatcl2e   \"/usr/bin/zsh\"   3 hours ago   Up 3 hours             heuristic_proskuriakova"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#downloading-from-the-internet-using-curl",
-    "href": "blog/obtaining data/obtaininda.html#downloading-from-the-internet-using-curl",
-    "title": "Using command Line to Obtain Data",
-    "section": "Downloading from the Internet using Curl",
-    "text": "Downloading from the Internet using Curl\nCurl and wget are command line tools that allows you to download files from the Internet. curl and wget are installed by default on most Linux systems. if you do not have either tool installed, you can use the commands below to install curl and wget on Ubuntu.\n   sudo apt install curl\n   sudo apt install wget\nIf you are using a Mac, you can install curl and wget using the following commands:\n    brew install curl\n    brew install wget\n\nHow to Use Curl\nThe curl syntax is :\ncurl [options] [URL...] \nIn its simplest form, curl is used to download a file from the Internet without any options.\n    curl example.com\nThe above example, curl displays the contents of the file to the standard output. The command above will download and print the source code of the example.com homepage in your terminal window.\n\n\nSave the Output to a File\nWe can use the -o option to save the output to a file.\n    curl -o example.html example.com\nOR\n    curl example.com -o example.html\nThe above example will save the output to a file named example.html instead of printing it to the terminal. You can also redirect the output to a file using the > operator.\n    curl -o example.com > example.html\nWe can also use O (uppercase) to save to original file name\n\n   curl -O example.com\nThe above example will save the output to a file named example.com instead of printing it to the terminal.\nSometimes, it’s a good idea to set the verbose mode on. This may provide useful information about the progress of the download.\n\ncurl -v example.com\ncurl outputs a progress meter that shows the download rate and the expected time of completion. You can also use the -s option to hide the progress meter and the progress.\ncurl -s example.com\n\n\nFollowing Redirects\nWhen accessing shortened URL with curl, such as: http://bit.ly/, we need to set the -L option to automatically follow redirects\n    curl -L http://bit.ly/\n\n\nUsing Curl to Download from FTP server\nCurl has over 20 built-in FTP commands. You can use curl to download files from FTP servers as follows:\n    curl -s \"ftp://ftp.gnu.org/welcome.msg\" | trim\n\n\nHow to use Wget Command\nThe wget command is similar to curl, but it does not print the output to the terminal. Instead, it saves the output to a file. Its syntax is shown below:\n    wget [options] [URL...]\nYou can download a file from the Internet using wget and saved to a file.\n    wget -O example.html example.com\n    wget example.com\nYou can also save the output to a file using the -O option.\n    wget -O example.html example.com\nYou can save in a specify folder using the -P option.\n    wget -P /home/example.com example.com"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#tar-and-unzip",
-    "href": "blog/obtaining data/obtaininda.html#tar-and-unzip",
-    "title": "Using command Line to Obtain Data",
-    "section": "Tar and Unzip",
-    "text": "Tar and Unzip"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#difference-between-wget",
-    "href": "blog/obtaining data/obtaininda.html#difference-between-wget",
-    "title": "Using command Line to Obtain Data",
-    "section": "Difference between Wget",
-    "text": "Difference between Wget\nWget is similar to curl, but curl is more powerful. wget is a tool to download files from servers while curl is a tool that let’s you exchange requests/responses with a server.\nwget’s major advantage is its ability to download recursively. Wget is command line only. There’s no library.\nCurl is powered by libcurl - a cross-platform library with a stable API that can be used by each and everyone.\nCurl is generally preferred since it supports more features than wget. For comparison here is the list of features of available with different tools:\n\nWget Command Syntax\nwget [options] [url]\n\n\nDownloading a with Wegt\n\nwget example.com # Download the source code of example.com with same name\nwget -o example.html example.com # Save the output to a file named example.html\n\nwget -p /desktop/examples   example.com  # Download files and save in /desktop/examples"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#difference-between-wget-and",
-    "href": "blog/obtaining data/obtaininda.html#difference-between-wget-and",
-    "title": "Using command Line to Obtain Data",
-    "section": "Difference between Wget and",
-    "text": "Difference between Wget and\nWget is similar to curl, but curl is more powerful. wget is a tool to download files from servers while curl is a tool that let’s you exchange requests/responses with a server.\nwget’s major advantage is its ability to download recursively. Wget is command line only. There’s no library.\nCurl is powered by libcurl - a cross-platform library with a stable API that can be used by each and everyone.\nCurl is generally preferred since it supports more features than wget. For comparison here is the list of features of available with different tools:\n\nWget Command Syntax\nwget [options] [url]\n\n\nDownloading a with Wegt\n\nwget example.com # Download the source code of example.com with same name\nwget -o example.html example.com # Save the output to a file named example.html\n\nwget -p /desktop/examples   example.com  # Download files and save in /desktop/examples"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#difference-between-wget-and-curl",
-    "href": "blog/obtaining data/obtaininda.html#difference-between-wget-and-curl",
-    "title": "Using command Line to Obtain Data",
-    "section": "Difference between Wget and Curl",
-    "text": "Difference between Wget and Curl\nWget is similar to curl, but curl is more powerful. wget is a tool to download files from servers while curl is a tool that let’s you exchange requests/responses with a server.\nwget’s major advantage is its ability to download recursively. Wget is command line only. There’s no library.\nCurl is powered by libcurl - a cross-platform library with a stable API that can be used by each and everyone.\nCurl is generally preferred since it supports more features than wget. For comparison here is the list of features of available with different tools:"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#compressing-and-decompressing-files",
-    "href": "blog/obtaining data/obtaininda.html#compressing-and-decompressing-files",
-    "title": "Using command Line to Obtain Data",
-    "section": "Compressing and Decompressing Files",
-    "text": "Compressing and Decompressing Files\nLarge files can be compressed and decompressed.\n\nCompressing Files using tar\n    tar -cvf example.tar ~/desktop/example/\nThe options used in the above command to create a tar file are:\n\nc – Creates a new .tar archive file.\nv – Verbosely show the .tar file progress.\nf – File name type of the archive file.\n\n\n\nCompressing Files using gzip\ntar cvzf example.tar.gz /desktop/examples/\n\nor \n\ntar cvzf example.tgz /desktop/examples/"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#list-content-of-an-archive-file",
-    "href": "blog/obtaining data/obtaininda.html#list-content-of-an-archive-file",
-    "title": "Using command Line to Obtain Data",
-    "section": "List Content of an Archive File",
-    "text": "List Content of an Archive File\nTo list the contents of an archive file, you can use the following command (with t option):\n\ntar -tvf example.tar"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#decompressing-archive-file-in-linux",
-    "href": "blog/obtaining data/obtaininda.html#decompressing-archive-file-in-linux",
-    "title": "Using command Line to Obtain Data",
-    "section": "Decompressing Archive File in Linux",
-    "text": "Decompressing Archive File in Linux\nTo uncompress an archive file, you can use the following command (with x option):\n\ntar -xvf example.tar \nIf you want to untar in a different directory then use option as -C (specified directory).\n    tar -xvf example.tar -C /desktop/example/"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#decompressing-archivedd-file-in-linux",
-    "href": "blog/obtaining data/obtaininda.html#decompressing-archivedd-file-in-linux",
-    "title": "Using command Line to Obtain Data",
-    "section": "Decompressing Archivedd File in Linux",
-    "text": "Decompressing Archivedd File in Linux\nTo uncompress an archive file, you can use the following command (with x option):\n\ntar -xvf example.tar \nIf you want to untar in a different directory then use option as -C (specified directory).\n    tar -xvf example.tar -C /desktop/example/"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#decompressing-archivedd-file",
-    "href": "blog/obtaining data/obtaininda.html#decompressing-archivedd-file",
-    "title": "Using command Line to Obtain Data",
-    "section": "Decompressing Archivedd File",
-    "text": "Decompressing Archivedd File\nTo uncompress an archive file, you can use the following command (with x option):\n\ntar -xvf example.tar \nIf you want to untar in a different directory then use option as -C (specified directory).\n    tar -xvf example.tar -C /desktop/example/\nFinally, you can use unpack command also to decompress the file.\nunpack example.tar"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#converting-microsoft-excel-spreadsheets-to-csv",
-    "href": "blog/obtaining data/obtaininda.html#converting-microsoft-excel-spreadsheets-to-csv",
-    "title": "Using command Line to Obtain Data",
-    "section": "Converting Microsoft Excel Spreadsheets to CSV",
-    "text": "Converting Microsoft Excel Spreadsheets to CSV"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#converting-microsoft-excel-spreadsheets-to-csv-at-command-line",
-    "href": "blog/obtaining data/obtaininda.html#converting-microsoft-excel-spreadsheets-to-csv-at-command-line",
-    "title": "Using command Line to Obtain Data",
-    "section": "Converting Microsoft Excel Spreadsheets to CSV at Command Line",
-    "text": "Converting Microsoft Excel Spreadsheets to CSV at Command Line"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#converting-and-working-with-csv-at-command-line",
-    "href": "blog/obtaining data/obtaininda.html#converting-and-working-with-csv-at-command-line",
-    "title": "Using command Line to Obtain Data",
-    "section": "Converting and working with CSV at command Line",
-    "text": "Converting and working with CSV at command Line"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#converting-and-working-with-csv-at-command-line-using",
-    "href": "blog/obtaining data/obtaininda.html#converting-and-working-with-csv-at-command-line-using",
-    "title": "Using command Line to Obtain Data",
-    "section": "Converting and working with CSV at command Line using",
-    "text": "Converting and working with CSV at command Line using"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#converting-and-working-with-csv-at-command-line-using-csvtool",
-    "href": "blog/obtaining data/obtaininda.html#converting-and-working-with-csv-at-command-line-using-csvtool",
-    "title": "Using command Line to Obtain Data",
-    "section": "Converting and working with CSV at command Line using csvtool",
-    "text": "Converting and working with CSV at command Line using csvtool"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#csvki-converting-and-working-with-csv-at-command-line-using-csvtool",
-    "href": "blog/obtaining data/obtaininda.html#csvki-converting-and-working-with-csv-at-command-line-using-csvtool",
-    "title": "Using command Line to Obtain Data",
-    "section": "csvki : converting and working with CSV at command Line using csvtool",
-    "text": "csvki : converting and working with CSV at command Line using csvtool"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#csvkit-converting-and-working-with-csv-at-command-line-using-csvtool",
-    "href": "blog/obtaining data/obtaininda.html#csvkit-converting-and-working-with-csv-at-command-line-using-csvtool",
-    "title": "Using command Line to Obtain Data",
-    "section": "Csvkit : converting and working with CSV at command Line using csvtool",
-    "text": "Csvkit : converting and working with CSV at command Line using csvtool"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#csvkit-converting-and-working-with-csv-at-command-line",
-    "href": "blog/obtaining data/obtaininda.html#csvkit-converting-and-working-with-csv-at-command-line",
-    "title": "Using command Line to Obtain Data",
-    "section": "Csvkit : converting and working with CSV at command Line",
-    "text": "Csvkit : converting and working with CSV at command Line\ncsvkit is a suite of command-line tools for converting to and working with CSV, the king of tabular file formats. working with csvkit makes it easy to convert between different formats, and to work with the data in those formats.\nYou can install csvkit using the following command:\n    pip install csvkit\nWe can print the contents of the file using the following command:\nbat -A data.csv\nThe -A option show all non-printable characters such as space, tab, newline, etc.\nWe can also use another command called csvlook to print the contents of the file nicely.\ncsvlook data.csv\nBelow are some of the commands that you can use with csvkit:\n\nConvert Excel to CSV:\n\nin2csv data.xls > data.csv  # Excel to csv\n\nin2csv data.json > data.csv # json to csv\n\ncsvstat data.csv # give the statistics of the csv file\n\ncsvjson data.csv > data.json # convert csv to json\n\ncsvcut  -n data.csv # print column names\n\ncsvcut -c column_a,column_c data.csv > new.csv # select subset of columns"
-  },
-  {
-    "objectID": "blog/obtaining data/obtaininda.html#other-cool-stuff-you-can-do-with-curl",
-    "href": "blog/obtaining data/obtaininda.html#other-cool-stuff-you-can-do-with-curl",
-    "title": "Using command Line to Obtain Data",
-    "section": "Other Cool stuff you can do with curl",
-    "text": "Other Cool stuff you can do with curl\nwttr.in: to checker whather in your term\nwttr.in/SanFrancisco # to check weather in San Francisco\nrate.sx: Crypto prices without leaving the terminal by running curl rate.sx\n\ncurl rate.sx\ndict.org: To look up definitions for a word, run curl ‘dict.org/d:word’\ncurl 'dict.org/d:word'"
   }
 ]
