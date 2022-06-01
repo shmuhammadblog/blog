@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "data science\n\n\nunix\n\n\n\n\nThis blog explain how to use command line tools to obtain data from the internet.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to move files from and to Docker containers.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "data science\n\n\nunix\n\n\n\n\nThis blog explain how to use command line tools to obtain data from the internet.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\ndata science\n\n\nunix\n\n\n\n\nThis blog explain how to copy files from host to docker container and vice versa.\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nBooks\n\n\n\n\nWelcome to my Quarto Blog\n\n\n\n\n\n\nMay 31, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/obtaining data/obtaininda.html",
@@ -114,9 +114,9 @@
   {
     "objectID": "blog/movingfilestodocker/movinfiles.html",
     "href": "blog/movingfilestodocker/movinfiles.html",
-    "title": "Moving files to and from a docker containers",
+    "title": "Copying files to and from a docker containers",
     "section": "",
-    "text": "You can use the docker cp command to copy files from the host to the container or vice versa.\n\n\ndocker cp /path/to/file/in/host/   container_id:/path/to/file/in/container\n\n\n\ndocker cp container_id:/path/to/file/in/container/   /path/to/file/in/host/\n\n\n\ndocker cp container_id:/path/to/file/in/container/   container_id:/path/to/file/in/container/"
+    "text": "You can use the docker cp command to copy files from the host to the container or vice versa.\n\n\nThe syntax for copying file from host to container is\ndocker cp [source] [container:]destination`.\nThe example below show how to copy a file (dataset_on_host.csv) from the host to a container folder called data. We saved the file with a new name (dataset_on_container.csv) in the container folder.\n\n\n\n\nThe syntax for copying file from container to host is:\ndocker cp [container:]source [destination]\n    \nThe example below also show how a file from a container is copied to the host.\n\nThank you for reading."
   },
   {
     "objectID": "about.html",

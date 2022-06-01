@@ -171,26 +171,30 @@
   <media:content url="https://shmuhammadblog.github.io/blog/obtaining data/terminal.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
-  <title>Moving files to and from a docker containers</title>
+  <title>Copying files to and from a docker containers</title>
   <link>https://shmuhammadblog.github.io/blog/movingfilestodocker/movinfiles.html</link>
   <description><![CDATA[ 
 
 
 
-<section id="how-to-copy-files-to-and-from-docker-container-to-host" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-copy-files-to-and-from-docker-container-to-host">How to copy files to and from Docker Container to Host</h2>
+<section id="copying-files-to-and-from-docker-container-to-a-host" class="level2">
+<h2 class="anchored" data-anchor-id="copying-files-to-and-from-docker-container-to-a-host">Copying files to and from docker container to a host</h2>
 <p>You can use the <code>docker cp</code> command to copy files from the host to the container or vice versa.</p>
 <section id="copy-files-from-the-host-to-the-container" class="level3">
 <h3 class="anchored" data-anchor-id="copy-files-from-the-host-to-the-container">Copy files from the host to the container</h3>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;">docker</span> cp /path/to/file/in/host/   container_id:/path/to/file/in/container</span></code></pre></div>
+<p>The syntax for copying file from host to container is</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;">docker</span> cp [source] [container:]destination<span class="kw" style="color: #003B4F;">`</span><span class="bu" style="color: null;">.</span></span></code></pre></div>
+<p>The example below show how to copy a file (dataset_on_host.csv) from the host to a container folder called data. We saved the file with a new name (dataset_on_container.csv) in the container folder.</p>
+<p><img src="https://shmuhammadblog.github.io/blog/movingfilestodocker/host_to_docker.png" class="img-fluid"></p>
 </section>
 <section id="copy-files-from-the-container-to-the-host" class="level3">
 <h3 class="anchored" data-anchor-id="copy-files-from-the-container-to-the-host">Copy files from the container to the host</h3>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;">docker</span> cp container_id:/path/to/file/in/container/   /path/to/file/in/host/</span></code></pre></div>
-</section>
-<section id="copy-file-from-a-container-to-another-container" class="level3">
-<h3 class="anchored" data-anchor-id="copy-file-from-a-container-to-another-container">copy file from a container to another container</h3>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="ex" style="color: null;">docker</span> cp container_id:/path/to/file/in/container/   container_id:/path/to/file/in/container/</span></code></pre></div>
+<p>The syntax for copying file from container to host is:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;">docker</span> cp [container:]source [destination]</span>
+<span id="cb2-2">    </span></code></pre></div>
+<p>The example below also show how a file from a container is copied to the host.</p>
+<p><img src="https://shmuhammadblog.github.io/blog/movingfilestodocker/dockertolocal.png" class="img-fluid"></p>
+<p>Thank you for reading.</p>
 
 
 </section>
