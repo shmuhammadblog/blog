@@ -1,5 +1,5 @@
 ---
-title: "Why Should You Start a Blog?"
+title: "Why you should start a blog?"
 format:
   html:
     code-fold: true

@@ -12,7 +12,7 @@
 <generator>quarto-0.9.494</generator>
 <lastBuildDate>Tue, 31 May 2022 23:00:00 GMT</lastBuildDate>
 <item>
-  <title>Using command Line to Obtain Data</title>
+  <title>Using command line tool to obtain data</title>
   <link>https://shmuhammadblog.github.io/blog/obtaining data/obtaininda.html</link>
   <description><![CDATA[ 
 
@@ -171,7 +171,7 @@
   <media:content url="https://shmuhammadblog.github.io/blog/obtaining data/terminal.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
-  <title>Moving files to and from Docker containers</title>
+  <title>Moving files to and from a docker containers</title>
   <link>https://shmuhammadblog.github.io/blog/movingfilestodocker/movinfiles.html</link>
   <description><![CDATA[ 
 
@@ -204,7 +204,7 @@
   <media:content url="https://shmuhammadblog.github.io/blog/movingfilestodocker/docker.png" medium="image" type="image/png" height="124" width="144"/>
 </item>
 <item>
-  <title>Why Should You Start a Blog?</title>
+  <title>Why you should start a blog?</title>
   <link>https://shmuhammadblog.github.io/blog/whyblog/whyblog.html</link>
   <description><![CDATA[ 
 
