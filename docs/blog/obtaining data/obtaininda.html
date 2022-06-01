@@ -265,6 +265,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>When accessing shortened URL with curl, such as: http://bit.ly/, we need to set the -L option to automatically follow redirects</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">curl</span> <span class="at">-L</span> http://bit.ly/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+<section id="how-to-use-wget-command" class="level4">
+<h4 class="anchored" data-anchor-id="how-to-use-wget-command">How to use Wget Command</h4>
+<p>The wget command has similar syntax with curl. Its syntax is shown below:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>    <span class="fu">wget</span> [options] [URL...]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You can download a file from the Internet using wget.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>    <span class="fu">wget</span> example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You can also save the output to a file using the -O option.</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>    <span class="fu">wget</span> <span class="at">-O</span> example.html example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>You can save in a specify folder using the -P option.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>    <span class="fu">wget</span> <span class="at">-P</span> /home/example.com example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="difference-between-wget-and-curl" class="level2">
+<h2 class="anchored" data-anchor-id="difference-between-wget-and-curl">Difference between Wget and Curl</h2>
+<p>Wget is similar to curl, but curl is more powerful. wget is a tool to download files from servers while curl is a tool that let’s you exchange requests/responses with a server.</p>
+<p>wget’s major advantage is its ability to download recursively. Wget is command line only. There’s no library.</p>
+<p>Curl is powered by libcurl - a cross-platform library with a stable API that can be used by each and everyone.</p>
+<p>Curl is generally preferred since it supports more features than wget. For comparison <a href="https://curl.se/docs/comparison-table.html">here</a> is the list of features of available with different tools:</p>
 </section>
 <section id="tar-and-unzip" class="level2">
 <h2 class="anchored" data-anchor-id="tar-and-unzip">Tar and Unzip</h2>
